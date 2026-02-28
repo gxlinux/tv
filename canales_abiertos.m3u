@@ -1,211 +1,221 @@
 {
-  "24-horas": {
-    "nombre": "24 Horas",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/24_Horas_Logo.png",
-    "señales": {
-      "iframe_url": ["https://www.24horas.cl/envivo/"],
-      "m3u8_url": [],
-      "yt_id": "UCTXNz3gjAypWp3EhlIATEJQ",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.24horas.cl/",
-    "país": "cl",
-    "categoría": "news"
-  },
-
-  "meganoticias": {
-    "nombre": "Meganoticias",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Meganoticias_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.meganoticias.cl/senal-en-vivo/"],
-      "m3u8_url": [],
-      "yt_id": "UCkV8J9W9Ng2KpX4e5mX6QwQ",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.meganoticias.cl/",
-    "país": "cl",
-    "categoría": "news"
-  },
-
-  "t13": {
-    "nombre": "T13",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/T13_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.t13.cl/envivo"],
-      "m3u8_url": [],
-      "yt_id": "UCsRnhjcUCR78Q3Ud6OXCTNg",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.t13.cl/",
-    "país": "cl",
-    "categoría": "news"
-  },
-
-  "cnn-chile": {
-    "nombre": "CNN Chile",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN_Chile_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.cnnchile.com/envivo/"],
-      "m3u8_url": [],
-      "yt_id": "UC7Pq3Ko42YpkCB_Q4E981jw",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.cnnchile.com/",
-    "país": "cl",
-    "categoría": "news"
-  },
-
-  "tvn": {
-    "nombre": "TVN",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/TVN_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.tvn.cl/envivo"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.tvn.cl/",
-    "país": "cl",
-    "categoría": "general"
-  },
-
-  "chv": {
-    "nombre": "Chilevisión",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/CHV_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.chilevision.cl/senal-online"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.chilevision.cl/",
-    "país": "cl",
-    "categoría": "general"
-  },
-
-  "cine-ar": {
-    "nombre": "CINE.AR",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/CineAR_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.cine.ar/play"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.cine.ar/",
-    "país": "ar",
-    "categoría": "cine"
-  },
-
-  "retromovies": {
-    "nombre": "Retro Movies",
+  "canal-01": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": [],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "iframe_url": [""]
     },
     "sitio_oficial": "",
-    "país": "int",
-    "categoría": "cine"
+    "país": "",
+    "categoría": ""
   },
 
-  "pluto-cine": {
-    "nombre": "Pluto TV Cine",
+  "canal-02": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": ["https://pluto.tv/es/live-tv"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "m3u8_url": [""]
     },
-    "sitio_oficial": "https://pluto.tv/",
-    "país": "latam",
-    "categoría": "cine"
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
   },
 
-  "paramount-network": {
-    "nombre": "Paramount Network",
+  "canal-03": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": [],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "yt_id": ""
     },
-    "sitio_oficial": "https://www.paramountnetwork.com/",
-    "país": "int",
-    "categoría": "cine"
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
   },
 
-  "dw-espanol": {
-    "nombre": "DW Español",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7f/DW_logo.png",
-    "señales": {
-      "iframe_url": ["https://www.dw.com/es/tv/en-vivo/s-100825"],
-      "m3u8_url": [],
-      "yt_id": "UC1x8rV_f-2yW-14Lk4nS6XQ",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.dw.com/",
-    "país": "de",
-    "categoría": "news"
-  },
-
-  "rtve-24h": {
-    "nombre": "RTVE 24H",
+  "canal-04": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": ["https://www.rtve.es/play/videos/directo/canal-24h/"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "iframe_url": [""]
     },
-    "sitio_oficial": "https://www.rtve.es/",
-    "país": "es",
-    "categoría": "news"
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
   },
 
-  "tv-publica-ar": {
-    "nombre": "TV Pública Argentina",
+  "canal-05": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": ["https://www.tvpublica.com.ar/vivo/"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "m3u8_url": [""]
     },
-    "sitio_oficial": "https://www.tvpublica.com.ar/",
-    "país": "ar",
-    "categoría": "general"
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
   },
 
-  "canal-26": {
-    "nombre": "Canal 26",
+  "canal-06": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": ["https://www.canal26.com/envivo"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "yt_id": ""
     },
-    "sitio_oficial": "https://www.canal26.com/",
-    "país": "ar",
-    "categoría": "news"
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
   },
 
-  "redbull-tv": {
-    "nombre": "Red Bull TV",
+  "canal-07": {
+    "nombre": "",
     "logo": "",
     "señales": {
-      "iframe_url": ["https://www.redbull.com/int-en/live"],
-      "m3u8_url": [],
-      "yt_id": "",
-      "twitch_id": ""
+      "iframe_url": [""]
     },
-    "sitio_oficial": "https://www.redbull.com/",
-    "país": "int",
-    "categoría": "entretenimiento"
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-08": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "m3u8_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-09": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "yt_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-10": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "iframe_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-11": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "m3u8_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-12": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "yt_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-13": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "iframe_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-14": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "m3u8_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-15": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "yt_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-16": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "iframe_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-17": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "m3u8_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-18": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "yt_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-19": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "iframe_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
+  },
+
+  "canal-20": {
+    "nombre": "",
+    "logo": "",
+    "señales": {
+      "m3u8_url": [""]
+    },
+    "sitio_oficial": "",
+    "país": "",
+    "categoría": ""
   }
 }
