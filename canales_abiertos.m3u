@@ -1,0 +1,30 @@
+#EXTM3U
+
+# --- ESPAÑA ---
+#EXTINF:-1 group-title="España",La 1 RTVE
+https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8
+
+#EXTINF:-1 group-title="España",La 2 RTVE
+https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main.m3u8
+
+#EXTINF:-1 group-title="España",24h RTVE
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main.m3u8
+
+# --- MÉXICO ---
+#EXTINF:-1 group-title="México",Canal 14
+https://stream.izzi.mx/live/channel14.m3u8
+
+# --- COLOMBIA ---
+#EXTINF:-1 group-title="Colombia",Señal Colombia
+https://senalcolombia-live.akamaized.net/hls/live/2021445/senalcolombia/master.m3u8
+
+# --- ARGENTINA ---
+#EXTINF:-1 group-title="Argentina",TV Pública
+https://tvpublica-lh.akamaihd.net/i/tvpublica_1@50029/master.m3u8
+
+# --- INTERNACIONAL ---
+#EXTINF:-1 group-title="Internacional",DW Español
+https://dweventstream-lh.akamaihd.net/i/dwstream_live@12033/master.m3u8
+
+#EXTINF:-1 group-title="Internacional",France 24 Español
+https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
