@@ -1,30 +1,504 @@
-#EXTM3U
-
-# --- ESPAÑA ---
-#EXTINF:-1 group-title="España",La 1 RTVE
-https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8
-
-#EXTINF:-1 group-title="España",La 2 RTVE
-https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main.m3u8
-
-#EXTINF:-1 group-title="España",24h RTVE
-https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main.m3u8
-
-# --- MÉXICO ---
-#EXTINF:-1 group-title="México",Canal 14
-https://stream.izzi.mx/live/channel14.m3u8
-
-# --- COLOMBIA ---
-#EXTINF:-1 group-title="Colombia",Señal Colombia
-https://senalcolombia-live.akamaized.net/hls/live/2021445/senalcolombia/master.m3u8
-
-# --- ARGENTINA ---
-#EXTINF:-1 group-title="Argentina",TV Pública
-https://tvpublica-lh.akamaihd.net/i/tvpublica_1@50029/master.m3u8
-
-# --- INTERNACIONAL ---
-#EXTINF:-1 group-title="Internacional",DW Español
-https://dweventstream-lh.akamaihd.net/i/dwstream_live@12033/master.m3u8
-
-#EXTINF:-1 group-title="Internacional",France 24 Español
-https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
+	
+24-horas	{ nombre: "24 horas", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png", sitio_oficial: "https://www.24horas.cl/envivo/", … }
+meganoticias	{ nombre: "Meganoticias", logo: "https://upload.wikimedia.org/wikipedia/commons/b/be/Meganoticias2019.png", sitio_oficial: "https://www.mega.cl/", … }
+t13	{ nombre: "T13 - Teletrece", logo: "https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_Teletrece.svg", sitio_oficial: "https://www.t13.cl/en-vivo", … }
+cnn-cl	{ nombre: "CNN Chile", logo: "https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png", sitio_oficial: "https://www.cnnchile.com/page/en-vivo/", … }
+chv-noticias	{ nombre: "CHV Noticias", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c7/CHV_Noticias_2018.png", sitio_oficial: "https://www.chvnoticias.cl/senal-online/", … }
+el-mostrador	{ nombre: "El Mostrador", logo: "https://graph.facebook.com/elmostrador/picture?width=800&height=800", sitio_oficial: "https://www.elmostrador.cl/", … }
+la-tercera	{ nombre: "La Tercera", logo: "https://assets.stickpng.com/images/5c091be92c6641059597e374.png", sitio_oficial: "https://www.youtube.com/channel/UCEQ_IiWGNvyvwSF3Sd-aQFA", … }
+cooperativa	{ nombre: "Radio Cooperativa", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Radio_Cooperativa_Logo.svg", sitio_oficial: "http://programas.cooperativa.cl/showalairelibre/", … }
+bbtv	{ nombre: "Radio Biobio TV", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Biobio_TV_logo.jpg", sitio_oficial: "https://www.biobiochile.cl/biobiotv/", … }
+adn	{ nombre: "Radio ADN", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c2/ADN_Radio_Chile.svg", sitio_oficial: "https://www.adnradio.cl/noticias/videos/", … }
+duna	{ nombre: "Radio Duna", logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Radio_Duna_2005.jpg", sitio_oficial: "https://www.duna.cl/tv/", … }
+infinita	{ nombre: "Radio Infinita", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Radio_Infinita_logo_2023.jpg", sitio_oficial: "http://www.infinita.cl/home/", … }
+universo	{ nombre: "Radio Universo", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_Radio_Universo.png", sitio_oficial: "https://www.universo.cl/", … }
+radio-ae	{ nombre: "Radio AE Radio DuocUC", logo: "https://www.aeradio.cl/wp-content/uploads/2024/04/AE-RADIO-2024.png", sitio_oficial: "https://www.aeradio.cl/", … }
+carolina-tv	{ nombre: "Radio Carolina TV", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo_Radio_Carolina_2020.png", sitio_oficial: "https://www.carolina.cl/tv/", … }
+carolina2-tv	{ nombre: "Radio Carolina 2 TV", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo_Radio_Carolina_2020.png", sitio_oficial: "https://www.carolina.cl/carolina2/", … }
+romantica-tv	{ nombre: "Radio Romántica TV", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Marca-radio-romantica.jpg", sitio_oficial: "https://www.romantica.cl/romantica-tv/", … }
+radio-genial	{ nombre: "Radio Genial 100.5 FM", logo: "https://graph.facebook.com/RadioGenialFM/picture?width=800&height=800", sitio_oficial: "https://radiogenial.cl/", … }
+radio-la-clave	{ nombre: "Radio La Clave", logo: "https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_La_Clave_2019.png", sitio_oficial: "https://radiolaclave.cl/", … }
+radio-el-conquistador	{ nombre: "Radio El Conquistador FM", logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Radio_El_Conquistador_91.3_FM.jpg", sitio_oficial: "https://www.elconquistadorfm.net/", … }
+radio-folclor-chile	{ nombre: "Radio Folclor de Chile", logo: "https://graph.facebook.com/radiofolclor.dechile/picture?width=800&height=800", sitio_oficial: "https://radiofolclordechile.cl/", … }
+sembrador	{ nombre: "Radio El Sembrador", logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Radio_El_Sembrador.png", sitio_oficial: "https://tv.radioelsembrador.cl/", … }
+radio-nuble	{ nombre: "Radio Ñuble 89.7 FM", logo: "https://graph.facebook.com/laNuble/picture?width=800&height=800", sitio_oficial: "https://radionuble.cl/v1/", … }
+alternativa-fm	{ nombre: "Radio Alternativa FM (Huasco)", logo: "https://i0.wp.com/alternativatv.cl/wp-content/uploads/2022/11/cropped-Logo-Red-Alternativa.png", sitio_oficial: "https://www.alternativafm.cl/p/alternativa-tv.html", … }
+radiouchile102-5fm	{ nombre: "Radio Universidad de Chile", logo: "https://graph.facebook.com/RadioUniversidaddeChile/picture?width=800&height=800", sitio_oficial: "https://radio.uchile.cl/", … }
+tele13radio-chile	{ nombre: "Tele13 Radio", logo: "https://graph.facebook.com/Tele13Radio/picture?width=800&height=800", sitio_oficial: "https://tele13radio.cl/", … }
+lametro95-9fm	{ nombre: "La MetroFM", logo: "https://lametrofm.cl/wp-content/uploads/2025/03/LOGO_2025_fm-removebg-preview1.png", sitio_oficial: "https://lametrofm.cl/", … }
+agriculturatv	{ nombre: "AGRICULTURA TV", logo: "https://graph.facebook.com/RadioAgricultura/picture?width=800&height=800", sitio_oficial: "https://www.radioagricultura.cl/en-vivo-3/", … }
+llegolahora921	{ nombre: "¡Llegó la hora!", logo: "https://graph.facebook.com/RadioAgricultura/picture?width=800&height=800", sitio_oficial: "https://www.radioagricultura.cl/podcast_programas/llego-la-hora/", … }
+radio-la-nuestra	{ nombre: "La nuestra", logo: "https://graph.facebook.com/LaNuestra.cl/picture?width=800&height=800", sitio_oficial: "https://www.lanuestra.cl/", … }
+radio-subela	{ nombre: "Súbela Radio", logo: "https://graph.facebook.com/subelaradio/picture?width=800&height=800", sitio_oficial: "https://www.subela.cl/", … }
+radio-pauta	{ nombre: "Pauta", logo: "https://graph.facebook.com/pauta.cl/picture?width=800&height=800", sitio_oficial: "https://www.pauta.cl/", … }
+radio-puangue-curacavi	{ nombre: "Radio Puangue Curacaví", logo: "https://radiopuanguecuracavi.cl/wp-content/uploads/2024/11/Logo.png", sitio_oficial: "https://radiopuanguecuracavi.cl/", … }
+nina-fm	{ nombre: "Nina FM", logo: "https://graph.facebook.com/ninaladiferente/picture?width=800&height=800", sitio_oficial: "https://ninafm.cl/", … }
+tvn-cl	{ nombre: "TVN", logo: "https://upload.wikimedia.org/wikipedia/commons/3/33/Logotipo_de_Televisi%C3%B2n_Nacional_de_Chile.svg", sitio_oficial: "https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ", … }
+tv-chile	{ nombre: "TV Chile", logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Logotipo_de_TV_Chile.svg", sitio_oficial: "https://www.tvn.cl/tvchile/envivo", … }
+tvn-3	{ nombre: "TVN 3", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/TVN_3_2023.svg/320px-TVN_3_2023.svg.png", sitio_oficial: "https://www.tvn.cl/tvn3", … }
+ntv	{ nombre: "NTV", logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/Logotipo_de_NTV.svg", sitio_oficial: "https://www.tvn.cl/ntv", … }
+teleseries-tvn	{ nombre: "Teleseries y series TVN", logo: "https://i.pinimg.com/736x/73/8c/06/738c06db140ef99b6f190d9e0a1867e6.jpg", sitio_oficial: "https://www.youtube.com/channel/UCJwtKyJIfr31zI077EnQTXg", … }
+mega-cl	{ nombre: "Mega", logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Logotipo_de_Mega_%282015-2020%29.svg", sitio_oficial: "https://www.mega.cl/", … }
+canal-13	{ nombre: "Canal 13", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Emblema_del_Canal_13_Chile.svg", sitio_oficial: "https://www.13.cl/en-vivo", … }
+chilevision	{ nombre: "Chilevisión", logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Emblema_de_Chilevisi%C3%B3n.svg", sitio_oficial: "https://www.chilevision.cl/senal-online", … }
+la-red	{ nombre: "La Red", logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/La_Red_Logotipo_2021.svg", sitio_oficial: "https://www.lared.cl/senal-online", … }
+stgo-tv	{ nombre: "Stgo.TV", logo: "https://graph.facebook.com/stgotvchile/picture?width=800&height=800", sitio_oficial: "https://www.santiagotelevision.cl/", … }
+tv-mas	{ nombre: "TV+", logo: "https://upload.wikimedia.org/wikipedia/commons/9/9b/TV%2B_%282018%29.png", sitio_oficial: "https://www.tvmas.tv/", … }
+13-cultura	{ nombre: "13 Cultura", logo: "https://graph.facebook.com/canal13c/picture?width=800&height=800", sitio_oficial: "https://www.13.cl/c", … }
+13-entretencion	{ nombre: "13 Entretención", logo: "https://static.wikia.nocookie.net/logopedia/images/4/4f/13entretencion.svg", sitio_oficial: "https://www.13.cl/", … }
+13-festival	{ nombre: "13 Festival", logo: "https://static.wikia.nocookie.net/logopedia/images/6/6e/13festival.svg", sitio_oficial: "https://www.13.cl/", … }
+13-realities	{ nombre: "13 Realities", logo: "https://static.wikia.nocookie.net/logopedia/images/2/29/13realities.svg", sitio_oficial: "https://www.13.cl/", … }
+13-teleseries	{ nombre: "13 Teleseries", logo: "https://static.wikia.nocookie.net/logopedia/images/f/f1/13teleseries.svg", sitio_oficial: "https://www.13.cl/", … }
+13-pop	{ nombre: "13 Pop", logo: "https://static.wikia.nocookie.net/logopedia/images/5/5c/13pop.svg", sitio_oficial: "https://www.13.cl/", … }
+13-kids	{ nombre: "13 Kids", logo: "https://static.wikia.nocookie.net/logopedia/images/9/9b/13kids.svg", sitio_oficial: "https://www.13.cl/", … }
+13-canal-pruebas	{ nombre: "Canal 13 (Señal de Pruebas)", sitio_oficial: "https://www.13.cl/", "país": "cl", … }
+13-deportes	{ nombre: "13 Deportes", logo: "https://s.t13.cl/sites/default/files/t13/componentes/field-componente-logo/deportes13_1.png", sitio_oficial: "https://www.13.cl/", … }
+13-futgo	{ nombre: "13 FutGO", logo: "https://static.wikia.nocookie.net/logopedia/images/4/4a/FutGo.svg", sitio_oficial: "https://www.13.cl/", … }
+chv-deportes	{ nombre: "CHV Deportes", sitio_oficial: "https://pluto.tv/latam/live-tv/638df6f8b63cf100075ccfa1", "país": "cl", … }
+picadotv-chile	{ nombre: "PicadoTV Chile", logo: "https://graph.facebook.com/picadotv/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCpANs3C33Ay49hN2JeCV7FQ", … }
+frecuencia-cruzada	{ nombre: "Frecuencia Cruzada", logo: "https://graph.facebook.com/FrecuenciaCruzada/picture?width=800&height=800", sitio_oficial: "https://frecuenciacruzada.cl/en-vivo", … }
+balong	{ nombre: "Balong - MDTPnet", logo: "https://graph.facebook.com/fuerteperoalbalong/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCEZEW2z22WBkUB2Fcs8Gq3A", … }
+mega-tiempo	{ nombre: "MegaTiempo", logo: "https://logowik.com/content/uploads/images/mega-tiempo-new2760.logowik.com.webp", sitio_oficial: "https://www.megatiempo.cl/", … }
+voz-sobran	{ nombre: "La Voz De Los Que Sobran", logo: "https://graph.facebook.com/delosquesobran/picture?width=800&height=800", sitio_oficial: "https://lavozdelosquesobran.cl/", … }
+puranoticia	{ nombre: "Puranoticia TV", logo: "https://graph.facebook.com/puranoticiachile/picture?width=800&height=800", sitio_oficial: "https://puranoticia.pnt.cl/", … }
+holvoet-tv	{ nombre: "Holvoet TV", logo: "https://upload.wikimedia.org/wikipedia/commons/0/07/HolvoetTV.jpg", sitio_oficial: "https://holvoet.cl/en-vivo/", … }
+antofagasta-tv	{ nombre: "Antofagasta TV", logo: "https://graph.facebook.com/AntofagastaTelevision/picture?width=800&height=800", sitio_oficial: "https://www.antofagasta.tv/", … }
+atacama-tv	{ nombre: "Atacama TV", logo: "https://graph.facebook.com/tucanalregional/picture?width=800&height=800", sitio_oficial: "http://atacamatelevision.com/", … }
+canal-9	{ nombre: "Canal 9", logo: "https://graph.facebook.com/BioBioTV/picture?width=800&height=800", sitio_oficial: "https://www.canal9.cl/en-vivo/", … }
+tvu	{ nombre: "TVU", logo: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_tvu.png", sitio_oficial: "https://www.tvu.cl/", … }
+canal-1-ñuble	{ nombre: "Canal 1 Ñuble", logo: "https://images.squarespace-cdn.com/content/v1/670e696722c95f04171e0924/c9b5d2ac-2f70-40e1-beed-78d39108f657/_Canal+Uno_.png", sitio_oficial: "https://www.canal1.cl/", … }
+nublevision	{ nombre: "Ñublevision", logo: "https://graph.facebook.com/nublevision/picture?width=800&height=800", sitio_oficial: "https://nublevision.cl/", … }
+nuble-rtv	{ nombre: "Ñuble RVT", logo: "https://graph.facebook.com/RTVNUBLE/picture?width=800&height=800", sitio_oficial: "https://canalrtv.cl/", … }
+pinguino-tv	{ nombre: "Pingüino TV", logo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Pinguino_TV.png", sitio_oficial: "https://elpinguino.com/reproductor/", … }
+itv-patagonia	{ nombre: "ITV Patagonia", logo: "https://graph.facebook.com/ITVPatagonia/picture?width=800&height=800", sitio_oficial: "https://www.itvpatagonia.com/", … }
+ucv-tv	{ nombre: "UCV TV", logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Logotipo_de_UCV_Televisión_(2018).png", sitio_oficial: "https://ucvtv.cl/home.php", … }
+ucv-tv-eventos	{ nombre: "UCV TV Eventos", sitio_oficial: "https://ucvtv.cl/home.php", "país": "cl", … }
+uatv	{ nombre: "UATV", logo: "https://graph.facebook.com/uatvnoticias/picture?width=800&height=800", sitio_oficial: "https://uatv.cl/uatv-en-vivo/", … }
+vtv	{ nombre: "VTV", logo: "https://graph.facebook.com/canalvtvcl/picture?width=800&height=800", sitio_oficial: "http://canalvtv.cl/vtv/", … }
+tvr-television-regional	{ nombre: "TVR Television Regional", logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Televisi%C3%B3n_Regional_de_Chile_-_logo.png", sitio_oficial: "https://www.tvr.cl", … }
+veo-tv	{ nombre: "veoTV", logo: "https://www.veotv.cl/img/logo_grande.png", sitio_oficial: "https://www.veotv.cl/", … }
+contivision	{ nombre: "Contivision", logo: "https://graph.facebook.com/TVContivision/picture?width=800&height=800", sitio_oficial: "https://contivision.cl/", … }
+osorno-tv	{ nombre: "Osorno TV+", logo: "https://graph.facebook.com/OsornoTV/picture?width=800&height=800", sitio_oficial: "https://www.osornotv.cl/envivo.html", … }
+copano	{ nombre: "Copano", logo: "https://graph.facebook.com/copano/picture?width=800&height=800", sitio_oficial: "https://copano.news/", … }
+canalzonalatina	{ nombre: "Zona Latina", logo: "https://graph.facebook.com/canalzonalatina/picture?width=800&height=800", sitio_oficial: "https://zonalatinatv.com/", … }
+u-talca-tv	{ nombre: "UTalcaTV (U. de Talca)", logo: "https://tv.utalca.cl/wp-content/uploads/2023/10/cropped-Isologo-UTalcaTV-3-32x32.png", sitio_oficial: "https://tv.utalca.cl", … }
+tv-uct-araucania	{ nombre: "TV UCT (U. Católica de Temuco)", logo: "https://tvuct.cl/wp-content/uploads/2023/08/logo-white.png", sitio_oficial: "https://www.tvuct.cl/", … }
+ua-tv	{ nombre: "UA TV (U. Autonoma)", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/UATV.png/320px-UATV.png", sitio_oficial: "https://uatv.cl/", … }
+umag-tv	{ nombre: "UMAG TV (U. de Magallanes)", logo: "https://static.wixstatic.com/media/2daf50_a8f34b3a9e16488ea92343158572f5e4%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/2daf50_a8f34b3a9e16488ea92343158572f5e4%7Emv2.jpg", sitio_oficial: "https://www.umagtv.cl/", … }
+umag-tv-2	{ nombre: "UMAG TV 2 (U. de Magallanes)", logo: "https://static.wixstatic.com/media/2daf50_a8f34b3a9e16488ea92343158572f5e4%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/2daf50_a8f34b3a9e16488ea92343158572f5e4%7Emv2.jpg", sitio_oficial: "https://www.umagtv.cl/blank-2", … }
+ues-tv	{ nombre: "UESTV", logo: "https://www.uestv.cl//wp-content/uploads/layerslider/INICIO-TEMPORAL-COVID-19-Y-ECLIPSE-copy/logo-UESTV.png", sitio_oficial: "https://www.uestv.cl/", … }
+u-de-chile-tv	{ nombre: "U de Chile TV", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e9/UChile_TV_logo_2020.png", sitio_oficial: "https://uchile.cl/uchiletv", … }
+ufromedios	{ nombre: "UfroMedios", logo: "https://www.ufromedios.cl/wp-content/uploads/2021/02/UFROMEDIOS-VISION-LOW-VERT.png", sitio_oficial: "https://www.ufromedios.cl/programacion-ufrovision/", … }
+ulagostv	{ nombre: "ULagosTV (U. de los Lagos)", logo: "https://www.uestv.cl//wp-content/uploads/2023/12/LOGOS-CANALES-UESTV-6.png", sitio_oficial: "https://www.ulagos.cl/", … }
+realtvchile-porlalibertad	{ nombre: "Real TV Chile", sitio_oficial: "https://www.youtube.com/@RealTVChile-PorLaLibertad", "país": "cl", … }
+arica-tv	{ nombre: "Arica TV", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Logo_de_Arica_TV.png/240px-Logo_de_Arica_TV.png", sitio_oficial: "https://arica.tv/", … }
+rtc-television	{ nombre: "RTC Television", logo: "https://www.rtctelevision.cl/images/logortc.png", sitio_oficial: "https://www.rtctelevision.cl/", … }
+lrp-television	{ nombre: "LRP Television", logo: "https://graph.facebook.com/LRPtelevision/picture?width=800&height=800", sitio_oficial: "https://www.lrptelevision.com/", … }
+huasco-television	{ nombre: "Huasco Television", logo: "https://www.huascotelevisionstreaming.cl/images/logo_superior.png", sitio_oficial: "https://www.huascotelevisionstreaming.cl/", … }
+mi-radio-tv	{ nombre: "Mi Radio TV", logo: "https://www.miradiols.cl/wp-content/uploads/2018/02/logo-ok-footer.png", sitio_oficial: "https://miradiotv.cl/", … }
+america-tv-cl	{ nombre: "America TV", logo: "https://radioamerica.cl/wp-content/uploads/2025/07/logo-america.png", sitio_oficial: "https://radioamerica.cl/", … }
+radio-america-tv	{ nombre: "Radio America TV", logo: "https://radioamerica.cl/wp-content/uploads/2025/07/logo-america.png", sitio_oficial: "https://radioamerica.cl/radio-tv-online/", … }
+tv-costa	{ nombre: "TV Costa", logo: "https://tvcosta.cl/wp-content/uploads/2022/12/TV-Costa.jpg", sitio_oficial: "https://tvcosta.cl", … }
+canal-local-quillota	{ nombre: "Canal Local Quillota", logo: "https://canallocal.cl/wp-content/uploads/2020/04/cropped-CANALLOCAL-2.png", sitio_oficial: "https://www.canallocal.cl", … }
+marga-marga-tv	{ nombre: "Marga Marga TV", logo: "https://margamargatv.cl/wp-content/uploads/2024/12/cropped-identidad_favicon-192x192.png", sitio_oficial: "https://margamargatv.cl", … }
+vtv-quillota	{ nombre: "VTV Quillota", logo: "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f45357a0ac66b5dfa35c144/mediaLibrary/photo/6ffc1997-59e5-48d2-83a5-a1392ae981b8-extra-large-standard-q100.webp", sitio_oficial: "https://www.diariovtv.cl/", … }
+frecuencia-7	{ nombre: "Frecuencia 7", logo: "https://www.frecuencia7tv.cl/logo-f7.png", sitio_oficial: "https://www.frecuencia7tv.cl", … }
+buin-somos-todos	{ nombre: "Buin Somos Todos", logo: "https://www.buin.cl/wp-content/uploads/2023/05/Botonera_Mesa-de-trabajo-5-copia.jpg", sitio_oficial: "https://www.buin.cl/", … }
+la-granja-tv	{ nombre: "La Granja TV", logo: "https://www.lagranja.tv/gallery_gen/a54e5683a51ffc503a0587669bceebc4_440x444.png", sitio_oficial: "https://www.lagranja.tv", … }
+la-granja-tv-fm	{ nombre: "laGranja FM 107.3", logo: "https://www.lagranja.tv/gallery_gen/a54e5683a51ffc503a0587669bceebc4_440x444.png", sitio_oficial: "https://www.lagranja.tv", … }
+caracola-tv	{ nombre: "Caracola TV La Florida", logo: "https://www.caracolatv.cl/wp-content/uploads/2022/11/cropped-LOGO-CARACOLA-05-1-300x169.png", sitio_oficial: "https://www.caracolatv.cl", … }
+suyai-tv	{ nombre: "Suyai TV", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/LOGO_SUYAI2.jpg/320px-LOGO_SUYAI2.jpg", sitio_oficial: "https://suyaitv.cl/", … }
+vision-plus-tv	{ nombre: "Vision Plus TV Melipilla", logo: "https://visionplustv.cl/wp-content/uploads/2024/06/VP017.png", sitio_oficial: "https://www.visionplustv.cl", … }
+unetev	{ nombre: "Unetev Talagante", logo: "https://www.unetev.cl/wp-content/uploads/2023/08/LOGO1-1.png", sitio_oficial: "https://www.unetev.cl", … }
+isb-san-bernardo	{ nombre: "ISB San Bernardo", logo: "https://www.canalisb.cl/imagenes/logo_isb.png", sitio_oficial: "https://www.canalisb.cl", … }
+tvo-san-vicente	{ nombre: "TVO San Vicente", logo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Logotipo_TVO_San_Vicente.png", sitio_oficial: "https://www.tvosanvicente.cl", … }
+sextavision	{ nombre: "Sextavision", logo: "https://sextavision.cl/wp-content/uploads/2024/06/cropped-ojo-SV-32x32.png", sitio_oficial: "https://sextavision.cl", … }
+via-x	{ nombre: "Vía X", logo: "https://canalviax.com/wp-content/uploads/2022/12/verticallogo.png", sitio_oficial: "https://canalviax.com/", … }
+amikas	{ nombre: "Amikas", logo: "https://amikas.cl/site-media/images/amikas-logo-300x103.png", sitio_oficial: "www.amikas.cl", … }
+tevex-oficial	{ nombre: "Tevex Oficial", logo: "https://tevex.cl/wp-content/uploads/2021/01/logo_tevex_formato_3.svg", sitio_oficial: "https://tevex.cl", … }
+radio-graneros-tv	{ nombre: "Radio Graneros TV", logo: "https://www.radiograneros.cl/imagen/logoradiograneros.jpg", sitio_oficial: "https://www.radiograneros.cl", … }
+pichilemu-tv	{ nombre: "Pichilemu TV", logo: "https://pichilemutv.org/wp-content/uploads/2020/06/cropped-Logo-Color-Blanco-Solo-32x32.png", sitio_oficial: "https://pichilemutv.org", … }
+tv5-linares	{ nombre: "TV5 Linares", logo: "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f47d1b0c6169d337c4d532e/mediaLibrary/photo/dfc35dae-1ef2-41dc-a0b5-79e0522be723-extra-large-standard-q100.webp", sitio_oficial: "https://www.tv5.cl/", … }
+canal-tv8-concepcion	{ nombre: "Canal TV8 Concepcion", logo: "https://graph.facebook.com/tv8concepcion/picture?width=800&height=800", sitio_oficial: "https://www.canaltv8.cl/", … }
+concepcion-tv	{ nombre: "Concepcion TV", logo: "https://concepciontv.cl/wp-content/uploads/2024/04/logopaginaweb-1-1024x272-1-150x40.png", sitio_oficial: "https://www.concepciontv.cl/", … }
+exprezion-tv	{ nombre: "Exprezion TV", logo: "https://www.exprezion.cl/assets/images/logo-de-canal-exprezion-163x163.png", sitio_oficial: "https://www.exprezion.cl/", … }
+club-tv-santa-juana	{ nombre: "Club TV Santa Juana", logo: "https://graph.facebook.com/clubtvcanal/picture?width=800&height=800", sitio_oficial: "https://www.clubtv.cl/", … }
+teleangol	{ nombre: "TeleAngol", logo: "https://s3-mspro.nyc3.digitaloceanspaces.com/tenant/5f4534e60ac66b5dfa35c13a/settings/logos/9c6f4044-9744-4ed5-94ee-9ae72d742367.png", sitio_oficial: "https://www.teleangol.cl/", … }
+temuco-television	{ nombre: "Temuco Television", logo: "https://temucotelevision.cl/web/wp-content/uploads/2019/01/logo-2.jpg", sitio_oficial: "https://temucotelevision.cl/", … }
+pucon-tv	{ nombre: "Pucon TV", logo: "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f4535460ac66b5dfa35c13f/mediaLibrary/photo/3639d184-7fb1-4658-8239-dc5c1ee334c1-extra-large-standard-q100.webp", sitio_oficial: "https://www.pucontv.com/", … }
+lanco-tv	{ nombre: "Lanco TV", logo: "https://lancotelevision.cl/wp-content/uploads/2024/01/Lanc-1536x581.png", sitio_oficial: "https://lancotelevision.cl/", … }
+canal-5-puerto-montt	{ nombre: "Canal 5 Pto. Montt", logo: "https://canal5.cl/wp/wp-content/uploads/2025/06/canal5-300x169.png", sitio_oficial: "https://canal5.cl/", … }
+cronicas-del-sur-tv	{ nombre: "Cronicas del Sur TV", logo: "https://cronicasdelsur.cl/wp-content/uploads/2023/07/cropped-LOGO-TV-transparente-180x180.png", sitio_oficial: "https://cronicasdelsur.cl/", … }
+tv-inet	{ nombre: "T-Vinet Digital", logo: "https://tvinet.cl/site/wp-content/uploads/cropped-channels4_profile-192x192.jpg", sitio_oficial: "https://tvinet.cl/", … }
+inter-radio-tv	{ nombre: "Inter Radio TV Frutillar", logo: "https://www.interradiotv.cl/wp-content/uploads/2024/03/Logoa-medida.jpg", sitio_oficial: "https://www.interradio1.net/", … }
+aysen-tv	{ nombre: "Aysen TV", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Logotipo_Ays%C3%A9n_Televisi%C3%B3n.svg/320px-Logotipo_Ays%C3%A9n_Televisi%C3%B3n.svg.png", sitio_oficial: "https://www.aysen.tv/", … }
+canal-11-aysen	{ nombre: "Canal 11 Aysen", sitio_oficial: "https://canal11aysen.cl/", "país": "cl", … }
+canal-sur-patagonia	{ nombre: "Canal Sur Patagonia", logo: "https://www.canalsurpatagonia.cl/wp-content/uploads/2024/07/Canal-Sur-Patagonia-272x90-2-jpg.avif", sitio_oficial: "https://www.canalsurpatagonia.cl/", … }
+panoramica-informativa	{ nombre: "Panoramica Informativa", logo: "https://static.wixstatic.com/media/b1376e_8599f9a1a489454bb69a8b52a6d6e7bd%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/b1376e_8599f9a1a489454bb69a8b52a6d6e7bd%7Emv2.png", sitio_oficial: "https://panoramicaysen.cl/", … }
+radio-magallanes	{ nombre: "Radio Magallanes", logo: "https://www.radiomagallanes.cl/images/LOGORADIOMAGALLANES.png", sitio_oficial: "https://www.radiomagallanes.cl/", … }
+radio-presidente-ibanez	{ nombre: "Radio Presidente Ibañez", logo: "https://www.radiopresidenteibanez.cl/web/wp-content/uploads/2024/01/LOGO-IBANEZ_2.png", sitio_oficial: "https://www.radiopresidenteibanez.cl/", … }
+polar-tv	{ nombre: "Polar TV", logo: "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/0d48ec9d-a119-4787-8781-70de66845b73-extra-large-standard-q100.webp", sitio_oficial: "https://radiopolar.com/", … }
+soberania-tv	{ nombre: "Soberania TV", logo: "https://www.soberaniaradio.cl/img/logo.png", sitio_oficial: "https://www.soberaniaradio.cl/", … }
+sur-tv	{ nombre: "Sur TV", logo: "https://www.surtv.cl/imagenes/logo.png", sitio_oficial: "https://www.surtv.cl/", … }
+canal-2-san-antonio	{ nombre: "Canal 2 San Antonio", logo: "https://graph.facebook.com/canal2tvsanantonio/picture?width=800&height=800", sitio_oficial: "https://cablenoticias.cl/san-antonio-en-vivo", … }
+canal-2-quellon	{ nombre: "Canal 2 Quellón", logo: "https://graph.facebook.com/canal2quellon/picture?width=800&height=800", sitio_oficial: "https://www.canal2quellon.cl/", … }
+iquique-tv	{ nombre: "Iquique TV", logo: "https://graph.facebook.com/iquiquetvhd/picture?width=800&height=800", sitio_oficial: "https://iquiquetv.cl/senal-online/", … }
+wapp-tv	{ nombre: "Wapp TV", logo: "https://graph.facebook.com/wapptv.cl/picture?width=800&height=800", sitio_oficial: "https://www.wapptv.cl/", … }
+megadeportescl	{ nombre: "MegaDeportes", logo: "https://graph.facebook.com/MegaDeportesCL/picture?width=800&height=800", sitio_oficial: "https://www.meganoticias.cl/deportes/", … }
+tierradragones	{ nombre: "Tierra de Dragones", logo: "https://graph.facebook.com/tierradragones/picture?width=800&height=800", sitio_oficial: "https://tierradedragones.cl/online/", … }
+tv-salud	{ nombre: "TV Salud", logo: "https://graph.facebook.com/tvsaludchile/picture?width=800&height=800", sitio_oficial: "https://tvsalud.cl/", … }
+canal-pais	{ nombre: "Canal País", logo: "https://graph.facebook.com/CanalPais/picture?width=800&height=800", sitio_oficial: "https://www.canalpais.com/en-vivo", … }
+tv-educa-cl	{ nombre: "TV Educa Chile", logo: "https://upload.wikimedia.org/wikipedia/commons/4/42/TV_Educa_Chile_Logo.png", sitio_oficial: "https://www.tvn.cl/envivo/tveducachile/", … }
+tv-senado	{ nombre: "TV Senado", logo: "https://static.wikia.nocookie.net/logopedia/images/8/84/TV_Senado_Chile.svg", sitio_oficial: "https://tv.senado.cl/", … }
+tribunal-constitucional	{ nombre: "Tribunal Constitucional", logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Logo_of_the_Constitutional_Court_of_Chile.svg", sitio_oficial: "https://www2.tribunalconstitucional.cl/", … }
+poder-judicial	{ nombre: "Poder Judicial", logo: "https://graph.facebook.com/PoderJudicialdeChile/picture?width=800&height=800", sitio_oficial: "https://www.poderjudicialtv.cl/", … }
+camara-diputados	{ nombre: "Cámara Diputados", logo: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Emblema_de_la_C%C3%A1mara_de_Diputados_de_Chile.png", sitio_oficial: "http://www.cdtv.cl/", … }
+servel-cl	{ nombre: "Servicio Electoral de Chile (Servel)", logo: "https://www.servel.cl/wp-content/uploads/elementor/thumbs/Logo-Servel_2-pz97n8j4o5tj23nw56d5wjjua63x90jaekks37yinw.png", sitio_oficial: "https://www.servel.cl/", … }
+nuevascomunicaciones	{ nombre: "Nuevas Comunicaciones", sitio_oficial: "https://www.youtube.com/channel/UCMvQGOyumsXP4V7dGAdIKWg", "país": "cl", … }
+marejadasuv	{ nombre: "Marejadas UV", logo: "https://graph.facebook.com/Marejadas.uv.cl/picture?width=800&height=800", sitio_oficial: "https://marejadas.uv.cl/", … }
+ledrium	{ nombre: "Ledrium", logo: "https://graph.facebook.com/LedriumCL/picture?width=800&height=800", sitio_oficial: "https://www.goledrium.cl/", … }
+galeria-cima	{ nombre: "Galería CIMA", sitio_oficial: "https://galeriacima.cl/", "país": "cl", … }
+parquemet-cumbre	{ nombre: "Halcón Parquemet, Cumbre", sitio_oficial: "https://halcon.parquemet.cl/index.html", "país": "cl", … }
+parquemet-terraza	{ nombre: "Halcón Parquemet, Terraza", sitio_oficial: "https://halcon.parquemet.cl/index.html", "país": "cl", … }
+parquemet-antilen	{ nombre: "Halcón Parquemet, Antilén", sitio_oficial: "https://halcon.parquemet.cl/index.html", "país": "cl", … }
+parquemet-polanco	{ nombre: "Halcón Parquemet, Polanco", sitio_oficial: "https://halcon.parquemet.cl/index.html", "país": "cl", … }
+muni-osorno	{ nombre: "Municipalidad Osorno", logo: "https://www.municipalidadosorno.cl/img/logo_img_footer.png", sitio_oficial: "https://www.municipalidadosorno.cl/", … }
+concecam	{ nombre: "ConceCam", logo: "https://yt3.googleusercontent.com/AchF_zMekNiXUURd3hHdeJvXxVmU5XSgk6GmrcjcBfbVVmWB-Q2zVpH3DnLZINUpC9xJBjhA5w=s900-c-k-c0x00ffffff-no-rj", sitio_oficial: "https://www.concecam.cl/", … }
+manupuntocl	{ nombre: "Manupuntocl - Valparaiso", logo: "https://yt3.googleusercontent.com/ytc/AIdro_n-qhDu7Zb1hVUTacpdBWa6eKtqrk3TjAK1Adl8LB7R_Q=s900-c-k-c0x00ffffff-no-rj", sitio_oficial: "https://www.youtube.com/channel/UCXaQjESu5cdF1CGH1aAA52Q", … }
+sanantonioimagen	{ nombre: "sanantonioimagen - San Antonio", logo: "https://yt3.googleusercontent.com/SqvDZujVnu6DQR4eoxFdT0GPUJe8-5KEYT9u2w1-aCc2FldKpTepwcpyQTiR87uRtwCkvL94=s900-c-k-c0x00ffffff-no-rj", sitio_oficial: "https://www.youtube.com/channel/UCprCdxrg_u9E9hhc-MZDk5A", … }
+la-serena-drone	{ nombre: "La Serena Drone", logo: "https://yt3.googleusercontent.com/Wg8gb4tBcMOTAH0P421Gv3wH1TRWuMNMJ8-M1a-aAcvCqrSBCMNQwjNI_yv3cSPYIVSrgqcmOVM=s900-c-k-c0x00ffffff-no-rj", sitio_oficial: "https://www.youtube.com/channel/UCQJzBVoVLCLe1G7tIxXDc6w", … }
+mediabanco-cl	{ nombre: "Mediabanco Chile", logo: "https://www.mediabanco.com/wp-content/uploads/2021/11/senal-logo2-1.png", sitio_oficial: "https://www.mediabanco.cl/", … }
+valle-nevado-cam-fourchette	{ nombre: "Valle Nevado Vista Terraza La Fourchette", logo: "https://www.vallenevado.com/wp-content/uploads/2024/01/1-2048x1152.png", sitio_oficial: "https://www.vallenevado.com/es/camaras/", … }
+valle-nevado-cam-piscina	{ nombre: "Valle Nevado Vista Piscina", logo: "https://www.vallenevado.com/wp-content/uploads/2024/01/1-2048x1152.png", sitio_oficial: "https://www.vallenevado.com/es/camaras/", … }
+valle-nevado-cam-puerta-sol	{ nombre: "Valle Nevado Vista Hotel Puerta del Sol", logo: "https://www.vallenevado.com/wp-content/uploads/2024/01/1-2048x1152.png", sitio_oficial: "https://www.vallenevado.com/es/camaras/", … }
+valle-nevado-cam-gondola	{ nombre: "Valle Nevado Vista La Góndola", logo: "https://www.vallenevado.com/wp-content/uploads/2024/01/1-2048x1152.png", sitio_oficial: "https://www.vallenevado.com/es/camaras/", … }
+portal-foxmix-chile	{ nombre: "Portal Foxmix Chile", logo: "https://graph.facebook.com/portalfoxmix/picture?width=800&height=800", sitio_oficial: "https://www.portalfoxmix.cl/tv/", … }
+todonoticias	{ nombre: "Todonoticias", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/TN_todo_noticias_logo.svg", sitio_oficial: "https://tn.com.ar/envivo/24hs/", … }
+c5n	{ nombre: "C5N", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/C5N_logo.svg/2048px-C5N_logo.svg.png", sitio_oficial: "https://www.c5n.com/vivo", … }
+net-tv	{ nombre: "Net TV", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png", sitio_oficial: "https://www.canalnet.tv/page/senal-en-vivo", … }
+tv-publica-arg	{ nombre: "Televisión Pública", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a5/TVP_-_Televisión_Pública_(2021).svg", sitio_oficial: "https://www.tvpublica.com.ar/", … }
+cronica-tv	{ nombre: "Crónica TV", logo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Crónica_TV_logotipo_(2016).png", sitio_oficial: "https://www.cronica.com.ar/cronica-en-vivo/", … }
+la-nacion	{ nombre: "LA NACION", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Logo_La_Nación.svg/2560px-Logo_La_Nación.svg.png", sitio_oficial: "https://www.lanacion.com.ar/", … }
+canal-26	{ nombre: "Canal 26", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_(2022).svg/2048px-Canal_26_logo_(2022).svg.png", sitio_oficial: "https://www.canal26.com/canal26-en-vivo", … }
+a24com	{ nombre: "A24com", logo: "https://graph.facebook.com/A24com/picture?width=800&height=800", sitio_oficial: "https://www.a24.com/vivo", … }
+telefe-noticias	{ nombre: "Telefe Noticias", logo: "https://graph.facebook.com/telefenoticias/picture?width=800&height=800", sitio_oficial: "https://noticias.mitelefe.com/vivo", … }
+america-tv-arg	{ nombre: "América TV", logo: "https://graph.facebook.com/AmericaTV/picture?width=800&height=800", sitio_oficial: "https://www.americatv.com.ar/vivo", … }
+el-doce	{ nombre: "eldoce", logo: "https://graph.facebook.com/eldocetv/picture?width=800&height=800", sitio_oficial: "https://eldoce.tv/vivo/", … }
+el-litoral-argentina	{ nombre: "El Litoral", logo: "https://graph.facebook.com/ellitoralcom/picture?width=800&height=800", sitio_oficial: "https://www.ellitoral.com/", … }
+ip-noticias-en-vivo	{ nombre: "IP Noticias", logo: "https://graph.facebook.com/CAMBIARAQUI/picture?width=800&height=800", sitio_oficial: "https://ipnoticias.ar/", … }
+nur-para-todos	{ nombre: "Nur Para Todos", sitio_oficial: "https://nurparatodos.com.ar/", "país": "ar", … }
+el-destape-tv	{ nombre: "El Destape", logo: "https://graph.facebook.com/ElDestapeWeb/picture?width=800&height=800", sitio_oficial: "https://www.eldestapeweb.com/", … }
+dnews-ok	{ nombre: "DNews", logo: "https://graph.facebook.com/dnewsok/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UC4dWvSKVWJ36tJyhjDQCCaQ", … }
+cadena3	{ nombre: "Cadena 3 Argentina", logo: "https://graph.facebook.com/Cadena3Argentina/picture?width=800&height=800", sitio_oficial: "https://www.cadena3.com/", … }
+radio-mitre	{ nombre: "Radio Mitre", logo: "https://graph.facebook.com/radiomitre/picture?width=800&height=800", sitio_oficial: "https://radiomitre.cienradios.com/", … }
+radio-nihuil	{ nombre: "Radio Nihuil", logo: "https://graph.facebook.com/radionihuil/picture?width=800&height=800", sitio_oficial: "https://www.radionihuil.com.ar/", … }
+pop-radio-101-5	{ nombre: "Pop Radio 101.5", logo: "https://graph.facebook.com/Popradio1015/picture?width=800&height=800", sitio_oficial: "https://www.radiopop.fm/", … }
+radio10am	{ nombre: "Radio10", logo: "https://graph.facebook.com/radio10/picture?width=800&height=800", sitio_oficial: "https://www.radio10.com.ar/", … }
+urbana-play-fm	{ nombre: "Urbana Play 104.3 FM", logo: "https://graph.facebook.com/UrbanaPlayFm/picture?width=800&height=800", sitio_oficial: "https://urbanaplayfm.com/", … }
+fmvale975	{ nombre: "FMVale975", logo: "https://graph.facebook.com/fmvale/picture?width=800&height=800", sitio_oficial: "https://radiovale.fm/", … }
+elsietemendoza	{ nombre: "El Siete TV", logo: "https://graph.facebook.com/elsietetv/picture?width=800&height=800", sitio_oficial: "https://www.elsietetv.com.ar/", … }
+breakpointmp	{ nombre: "BREAK POINT", sitio_oficial: "https://www.youtube.com/channel/UC_49ElhhVd1BO7MsdBPm77Q", "país": "ar", … }
+gelatina-ar	{ nombre: "GELATINA", logo: "https://gelatina.com.ar/wp-content/uploads/2025/02/Gelatina-2025.png", sitio_oficial: "https://www.youtube.com/channel/UCWSfXECGo1qK_H7SXRaUSMg", … }
+ushuaialive	{ nombre: "Ushuaia Live", sitio_oficial: "https://www.youtube.com/channel/UC6NTD1HmdaZMbe9K5qADOvw", "país": "ar", … }
+obelisco	{ nombre: "FourSeasons BuenosAires", sitio_oficial: "https://www.youtube.com/channel/UCCkRwmztPEvut3gpsgmCmzw", "país": "ar", … }
+puente-gral-belgrano	{ nombre: "SISE Argentina", sitio_oficial: "https://siseargentina.com/camaras-en-vivo/", "país": "ar", … }
+radioone1037	{ nombre: "Radio One 103.7", logo: "https://graph.facebook.com/radioone1037/picture?width=800&height=800", sitio_oficial: "https://www.radioone1037.fm/", … }
+radio-la-red-am-910	{ nombre: "Radio La Red AM 910", logo: "https://graph.facebook.com/radiolared/picture?width=800&height=800", sitio_oficial: "https://www.lared.am/", … }
+radio-futuro-fm-arg	{ nombre: "Radio Futurock FM", logo: "https://graph.facebook.com/FuturockOk/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCgn6r0aGRBnEQm02tE_jzbw", … }
+carburandotv	{ nombre: "Carburando", logo: "https://graph.facebook.com/CarburandoOficial/picture?width=800&height=800", sitio_oficial: "https://www.carburando.com/", … }
+ofi-presi-arg	{ nombre: "Oficina del Presidente Arg", logo: "https://graph.facebook.com/OPRArg/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCSfMW32JeKVaYwgvUy5D3fw", … }
+unitel-bolivia	{ nombre: "Unitel Bolivia", logo: "https://graph.facebook.com/unitelbolivia/picture?width=800&height=800", sitio_oficial: "https://television.unitel.bo/vivo", … }
+rtp-bolivia	{ nombre: "RTP BOLIVIA", logo: "https://graph.facebook.com/boliviartp/picture?width=800&height=800", sitio_oficial: "https://rtpbolivia.com.bo/", … }
+noticias-bolivisión-al-dia	{ nombre: "Noticias Bolivisión Al Día", logo: "https://graph.facebook.com/NoticiasBolivision/picture?width=800&height=800", sitio_oficial: "https://www.redbolivision.tv.bo/envivo-canal-5/", … }
+red-uno	{ nombre: "Red Uno", logo: "https://graph.facebook.com/RedUnotv/picture?width=800&height=800", sitio_oficial: "https://www.reduno.com.bo/", … }
+boliviatv72	{ nombre: "Bolivia TV 7.2", logo: "https://i.imgur.com/tKLYYys.png", sitio_oficial: "https://www.boliviatv.bo/", … }
+bolivision	{ nombre: "Bolivision", logo: "https://www.redbolivision.tv.bo/wp-content/uploads/2023/07/cropped-logo-2-e1690828812646-32x32.png", sitio_oficial: "https://www.redbolivision.tv.bo/", … }
+bolivia-al-aire-tv	{ nombre: "Bolivia Al aire TV", logo: "https://graph.facebook.com/BoliviaAlAireTV/picture?width=800&height=800", sitio_oficial: "https://boliviaalairetv.com/", … }
+gogoplaytv	{ nombre: "Gogoplaytv", logo: "https://graph.facebook.com/migogoplay/picture?width=800&height=800", sitio_oficial: "https://www.gogoplaytv.com/", … }
+recordnews	{ nombre: "Record News", logo: "https://graph.facebook.com/recordnews/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw", … }
+redebrasiloficial	{ nombre: "REDE BRASIL OFICIAL", logo: "https://graph.facebook.com/redebrasiloficial/picture?width=800&height=800", sitio_oficial: "https://tv.redebrasiloficial.com.br/", … }
+uol	{ nombre: "UOL", logo: "https://graph.facebook.com/UOL/picture?width=800&height=800", sitio_oficial: "https://www.uol.com.br/", … }
+tv-forum	{ nombre: "TV Fórum", logo: "https://graph.facebook.com/forumrevista/picture?width=800&height=800", sitio_oficial: "https://revistaforum.com.br/", … }
+tv-247	{ nombre: "TV 247", logo: "https://graph.facebook.com/brasil247/picture?width=800&height=800", sitio_oficial: "https://www.brasil247.com/", … }
+gzhdigital	{ nombre: "GZH", logo: "https://graph.facebook.com/gzhdigital/picture?width=800&height=800", sitio_oficial: "https://gauchazh.clicrbs.com.br/", … }
+tv-correio	{ nombre: "TV Correio", logo: "https://i.imgur.com/FSnGAaZ.png", sitio_oficial: "https://tvcorreio.com.br/", … }
+bradoradio	{ nombre: "BRADO", logo: "https://graph.facebook.com/bradoradio/picture?width=800&height=800", sitio_oficial: "https://www.bradojornal.com/", … }
+multimedios-costa-rica	{ nombre: "Multimedios Costa Rica", logo: "https://graph.facebook.com/MultimediosCR/picture?width=800&height=800", sitio_oficial: "https://www.telediario.cr/television", … }
+el-tiempo	{ nombre: "EL TIEMPO", sitio_oficial: "https://www.eltiempo.com/", "país": "co", … }
+noticias-caracol	{ nombre: "Noticias Caracol", sitio_oficial: "https://www.noticiascaracol.com/ahora", "país": "co", … }
+lafmcolombia	{ nombre: "LA FM Colombia", logo: "https://graph.facebook.com/lafmcolombia/picture?width=800&height=800", sitio_oficial: "https://www.lafm.com.co/", … }
+teleantioquianoticiasta	{ nombre: "Teleantioquia Noticias", logo: "https://graph.facebook.com/CanalTeleantioquia/picture?width=800&height=800", sitio_oficial: "https://www.teleantioquia.co/noticias/", … }
+eatlantico	{ nombre: "EAtlantico", logo: "https://graph.facebook.com/EmisorAtlantico/picture?width=800&height=800", sitio_oficial: "https://emisoraatlantico.com.co/", … }
+hoynoticiasagenciademedios6793	{ nombre: "HOY NOTICIAS AGENCIA DE MEDIOS", logo: "https://i0.wp.com/agenciademedioshoynoticias.com/wp-content/uploads/2020/01/agencia3.png", sitio_oficial: "https://agenciademedioshoynoticias.com/", … }
+laqdigital5493	{ nombre: "La Q Digital", logo: "https://graph.facebook.com/laqdigital.palmira/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCNCwZcHiMq-hiKUifqVgWLQ", … }
+cncchoco	{ nombre: "CNC CHOCÓ", logo: "https://graph.facebook.com/cncquibdo/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UC1y9xnPuEvaPCqwJTFDr-8Q", … }
+tercer-canal	{ nombre: "Tercer Canal", logo: "https://graph.facebook.com/3CanalCol/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCH0qX_eG0lDi00plxvidu7g", … }
+el-espectador	{ nombre: "El Espectador", logo: "https://graph.facebook.com/elespectadorcom/picture?width=800&height=800", sitio_oficial: "https://www.elespectador.com/", … }
+noscogiolanoche	{ nombre: "Nos Cogió La Noche Noticias", logo: "https://graph.facebook.com/NosCogioLaNocheCosmovision/picture?width=800&height=800", sitio_oficial: "https://www.coosmovision.com/nos-cogio-la-noche/", … }
+rcpc9	{ nombre: "RCPC", sitio_oficial: "http://www.rcpc.co/", "país": "co", … }
+buenisimaradiotv	{ nombre: "Buenisima Radio Tv", logo: "https://graph.facebook.com/buenisimaradiotv/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCk20PydKzK3giq80G4mqSeg", … }
+pulzo	{ nombre: "Pulzo", logo: "https://graph.facebook.com/PULZO.COLOMBIA/picture?width=800&height=800", sitio_oficial: "https://www.pulzo.com/", … }
+senalcolombia	{ nombre: "Señal Colombia", logo: "https://www.senalcolombia.tv/themes/custom/colombia_subtheme/img/nuevo_home/logo.svg", sitio_oficial: "https://www.senalcolombia.tv/", … }
+canalinstitucional	{ nombre: "Canal Institucional TV (Colombia)", logo: "https://www.canalinstitucional.tv/themes/custom/bootstrap_sass/images/logo.png", sitio_oficial: "https://www.canalinstitucional.tv/", … }
+1000noticias	{ nombre: "1000 Noticias", logo: "https://graph.facebook.com/1000noticiaspy/picture?width=800&height=800", sitio_oficial: "https://1000noticias.com.py/", … }
+abctvparaguay	{ nombre: "ABC-TV (Paraguay)", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Abc_color.PNG", sitio_oficial: "https://www.abc.com.py/", … }
+tv-peru	{ nombre: "TVPerú Noticias", sitio_oficial: "https://www.tvperu.gob.pe/noticias/play", "país": "pe", … }
+panamericana-tv	{ nombre: "Panamericana TV", sitio_oficial: "https://panamericana.pe/tvenvivo", "país": "pe", … }
+onda-digital-tv	{ nombre: "Onda Digital TV", sitio_oficial: "https://ondadigitaltv.com", "país": "pe", … }
+la-republica	{ nombre: "La República", sitio_oficial: "https://larepublica.pe/", "país": "pe", … }
+willax	{ nombre: "Willax", sitio_oficial: "https://willax.pe/en-vivo/", "país": "pe", … }
+latina-noticias	{ nombre: "Latina Noticias", sitio_oficial: "https://www.latina.pe/tvenvivo", "país": "pe", … }
+pbo	{ nombre: "PBO", logo: "https://graph.facebook.com/pboperu/picture?width=800&height=800", sitio_oficial: "https://pbo.pe/", … }
+rtvtotalyurimaguas8963	{ nombre: "RTV TOTAL YURIMAGUAS", logo: "https://graph.facebook.com/rtvtotal/picture?width=800&height=800", sitio_oficial: "https://rtvtotal.pe/tv-online", … }
+avancesocialnoticias4816	{ nombre: "Avance Social Noticias", sitio_oficial: "https://www.youtube.com/channel/UCo75W2AP1hnjUF4V_ovOAsg", "país": "pe", … }
+diario-el-comercio	{ nombre: "Diario El Comercio Videos", logo: "https://graph.facebook.com/elcomercio.pe/picture?width=800&height=800", sitio_oficial: "https://elcomercio.pe", … }
+n60-noticias	{ nombre: "N60 Noticias", logo: "https://graph.facebook.com/n60noticias/picture?width=800&height=800", sitio_oficial: "https://n60.pe/", … }
+latina-noticias-peru	{ nombre: "Latina Noticias", logo: "https://www.latina.pe/_templates/desktop/includes/img/latina.svg", sitio_oficial: "https://www.latina.pe/", … }
+tvperu-noticias	{ nombre: "TVPerú Noticias", logo: "https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo.png", sitio_oficial: "https://www.tvperu.gob.pe/", … }
+tvperu	{ nombre: "TVPerú", logo: "https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo.png", sitio_oficial: "https://www.tvperu.gob.pe/", … }
+latina-peru	{ nombre: "Radio Latina", logo: "https://www.latina.pe/_templates/desktop/includes/img/latina.svg", sitio_oficial: "https://www.latina.pe/", … }
+ideeleradionhd	{ nombre: "Ideeleradio", logo: "https://graph.facebook.com/idlradio/picture?width=800&height=800", sitio_oficial: "https://www.ideeleradio.pe/", … }
+ovacion-tv	{ nombre: "Radio Ovación TV", sitio_oficial: "https://ovacion.pe/radio", "país": "pe", … }
+san-borja	{ nombre: "Radio San Borja Tv", sitio_oficial: "https://radiosanborjatv.com/", "país": "pe", … }
+radio-onda-digital	{ nombre: "Radio Onda Digital", sitio_oficial: "https://www.ondadigital.pe/", "país": "pe", … }
+radio-tropical	{ nombre: "Radio Tropical 99.1 FM", sitio_oficial: "https://radiotropical.pe/", "país": "pe", … }
+radio-uno	{ nombre: "Radio Uno 93.7 FM", sitio_oficial: "https://radiouno.pe/", "país": "pe", … }
+telemetro13	{ nombre: "Telemetro Reporta", logo: "https://graph.facebook.com/TReporta/picture?width=800&height=800", sitio_oficial: "https://www.telemetro.com/endirecto", … }
+alvaroalvarado4703	{ nombre: "Alvaro Alvarado - Noticias 180 Minutos", logo: "https://graph.facebook.com/alvaroalvaradoc/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UC4RoqlERckC4gIhLEGb9Jjw", … }
+farotv3865	{ nombre: "FARO TV", sitio_oficial: "https://www.youtube.com/channel/UCH70iZotY9DHPZA_XCJbXGQ", "país": "pa", … }
+circulo-tv	{ nombre: "Círculo TV", logo: "https://graph.facebook.com/elcirculotv1/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCDPbA7nEEmzhRb5NnItyKag", … }
+telemetropa	{ nombre: "Telemetro", logo: "https://graph.facebook.com/telemetro/picture?width=800&height=800", sitio_oficial: "https://www.telemetro.com/endirecto", … }
+globovision	{ nombre: "Globovisión En Vivo", sitio_oficial: "https://www.globovision.com/", "país": "ve", … }
+vpitvenvivo	{ nombre: "VPItv", logo: "https://graph.facebook.com/vpitv/picture?width=800&height=800", sitio_oficial: "https://vpitv.com/en-vivo/", … }
+imesatnewstv	{ nombre: "Imesat News TV", logo: "https://graph.facebook.com/ImesatNewsTV1/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UC1gcFVHhxnbdVqZ8gRziDkg", … }
+telesur	{ nombre: "TeleSUR", logo: "https://graph.facebook.com/teleSUR/picture?width=800&height=800", sitio_oficial: "https://www.telesurtv.net/", … }
+telesur-eng	{ nombre: "TeleSUR English", logo: "https://graph.facebook.com/telesurenglish/picture?width=800&height=800", sitio_oficial: "https://www.telesurenglish.net/", … }
+telesurenespanol	{ nombre: "teleSURtv", logo: "https://graph.facebook.com/teleSUR/picture?width=800&height=800", sitio_oficial: "https://www.telesurtv.net/", … }
+venezolana-de-television	{ nombre: "Venezolana de Televisión", logo: "https://graph.facebook.com/VTVtuCanal/picture?width=800&height=800", sitio_oficial: "https://www.vtv.gob.ve/en-vivo/", … }
+ntn24	{ nombre: "NTN24", logo: "https://graph.facebook.com/ntn24/picture?width=800&height=800", sitio_oficial: "https://www.ntn24.com/en-vivo", … }
+televentv	{ nombre: "TelevenTV", logo: "https://graph.facebook.com/TelevenTV/picture?width=800&height=800", sitio_oficial: "https://televen.com/", … }
+la-iguana-tv	{ nombre: "La Iguana TV", logo: "https://graph.facebook.com/iguana.tv/picture?width=800&height=800", sitio_oficial: "https://www.laiguana.tv/envivo/", … }
+mundourenvivo	{ nombre: "MundoURenVivo", sitio_oficial: "https://mundour.com/", "país": "ve", … }
+ultimachance	{ nombre: "Lista Tv", sitio_oficial: "https://www.youtube.com/channel/UCw2ceOxZ4VhgRSre0ny2RcA", "país": "ve", … }
+vtvradiofm	{ nombre: "VTV RADIO", logo: "https://graph.facebook.com/CAMBIARAQUI/picture?width=800&height=800", sitio_oficial: "https://www.atom.bio/vtvradio_", … }
+vnradio1049fm	{ nombre: "Venezuela News Radio", logo: "https://graph.facebook.com/agenciaVenezuelaNews/picture?width=800&height=800", sitio_oficial: "https://venezuela-news.com/radio/", … }
+anzoategui-tv	{ nombre: "Anzoátegui TV", sitio_oficial: "https://lorini.net/anzoateguitv/", "país": "ve", … }
+bta-tv	{ nombre: "BTA TV", sitio_oficial: "https://btatv.tv/", "país": "ve", … }
+canal-21-tachira	{ nombre: "Canal 21 Táchira", sitio_oficial: "https://www.canal21tachira.com/tv/", "país": "ve", … }
+canalcultura-ve	{ nombre: "Canal Cultura Venezuela", logo: "https://graph.facebook.com/canalcultura.ve/picture?width=800&height=800", sitio_oficial: "https://culturavenezuela.com/emision-en-directo/", … }
+hch-vivo	{ nombre: "HCH En Vivo", sitio_oficial: "https://hch.tv/live/", "país": "hn", … }
+metrotvcholuteca	{ nombre: "METRO TV CHOLUTECA HONDURAS", logo: "https://graph.facebook.com/MetrotvyRadioMetroCholuteca/picture?width=800&height=800", sitio_oficial: "https://www.lametrohn.com/", … }
+imagentv	{ nombre: "ImagenTV", logo: "https://graph.facebook.com/ImagenTVMex/picture?width=800&height=800", sitio_oficial: "https://www.imagentv.com/en-vivo", … }
+imagentelevisionpuebla	{ nombre: "Imagen Televisión Puebla", logo: "https://graph.facebook.com/ImagenTVPuebla/picture?width=800&height=800", sitio_oficial: "https://www.imagentv.com/en-vivo", … }
+telediarioMX	{ nombre: "TelediarioMx", logo: "https://graph.facebook.com/TelediarioMx/picture?width=800&height=800", sitio_oficial: "https://www.telediario.mx/television", … }
+binoticias	{ nombre: "BI NOTICIAS", logo: "https://graph.facebook.com/BINoticiasAgs/picture?width=800&height=800", sitio_oficial: "https://binoticias.com/tv-en-vivo", … }
+oronoticiaspuebla	{ nombre: "Oro Noticias Puebla", logo: "https://graph.facebook.com/OroNoticias/picture?width=800&height=800", sitio_oficial: "https://oronoticiaspuebla.com/", … }
+cpsnoticiaspuertovallarta	{ nombre: "CPS Noticias Puerto Vallarta", logo: "https://graph.facebook.com/tribunadelabahiaoficial/picture?width=800&height=800", sitio_oficial: "https://tribunadelabahia.com.mx/", … }
+ahoranoticias3274	{ nombre: "Ahora Noticias", logo: "https://graph.facebook.com/AhoraNoticiasC/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCn161AaU20-UcYeDEvDJyyA", … }
+vamasnoticiasags26	{ nombre: "VA+ Noticias", logo: "https://graph.facebook.com/RyTAgs/picture?width=800&height=800", sitio_oficial: "https://ryta.com.mx/envivo/", … }
+televisaguascalients	{ nombre: "Televisa Aguascalientes Oficial", logo: "https://graph.facebook.com/Nu9veAgs/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg", … }
+milenio	{ nombre: "MILENIO", logo: "https://graph.facebook.com/mileniodiario/picture?width=800&height=800", sitio_oficial: "https://www.milenio.com/mileniotv", … }
+televisamonterreytv	{ nombre: "Televisa Monterrey", logo: "https://static.wikia.nocookie.net/logopedia/images/5/55/Channel_4.1.png", sitio_oficial: "https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg", … }
+nmas	{ nombre: "NMás", logo: "https://graph.facebook.com/nmas.com.mx/picture?width=800&height=800", sitio_oficial: "https://www.nmas.com.mx/", … }
+adn40mx	{ nombre: "adn40Mx", logo: "https://graph.facebook.com/adn40mx/picture?width=800&height=800", sitio_oficial: "https://live.adn40.mx/", … }
+televisaveracruzoficial	{ nombre: "Televisa Veracruz Oficial", logo: "https://graph.facebook.com/televertv/picture?width=800&height=800", sitio_oficial: "https://telever.tv/", … }
+jcarlos_valerio	{ nombre: "Juan Carlos Valerio", logo: "https://graph.facebook.com/JCarlosValerioNoticias/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCCETFebKrX0wIkA9lbqvoNA", … }
+aztecanoticias	{ nombre: "Azteca Noticias", logo: "https://graph.facebook.com/aztecanoticias/picture?width=800&height=800", sitio_oficial: "https://www.tvazteca.com/aztecanoticias/", … }
+gamavisionmx	{ nombre: "Gamavisión Noticias", logo: "https://pbs.twimg.com/profile_images/1560373776109277184/17qG3Ktj_400x400.jpg", sitio_oficial: "https://www.gamavision.com/", … }
+aristegui-noticias	{ nombre: "Aristegui Noticias", logo: "https://graph.facebook.com/AristeguiOnline/picture?width=800&height=800", sitio_oficial: "https://www.aristeguinoticias.com/", … }
+grupo-formula	{ nombre: "Grupo Fórmula", logo: "https://graph.facebook.com/RadioFormulaMX/picture?width=800&height=800", sitio_oficial: "https://www.radioformula.com.mx/", … }
+dk1250am	{ nombre: "DK 1250 AM", logo: "https://graph.facebook.com/DK1250/picture?width=800&height=800", sitio_oficial: "https://dk1250.mx/en-vivo-por-youtube/", … }
+televisa-puebla	{ nombre: "Televisa Puebla", logo: "https://graph.facebook.com/TelevisaPuebla/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UC-HNztluSQSffhIWJTL-LUw", … }
+televisa-sonora-oficial	{ nombre: "Televisa Sonora Oficial", logo: "https://graph.facebook.com/TelevisaSON/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCyzWMHGS7bs0sot6KZk5EZg", … }
+fpfch	{ nombre: "Fideicomiso de Puentes Fronterizos de Chihuahua", logo: "https://graph.facebook.com/fideicomisodepuentesfronterizos/picture?width=800&height=800", sitio_oficial: "https://puentesfronterizos.gob.mx/", … }
+rtve	{ nombre: "RTVE Noticias", sitio_oficial: "https://www.rtve.es/noticias", "país": "es", … }
+television-de-galicia	{ nombre: "Televisión de Galicia", logo: "https://graph.facebook.com/tvgalicia/picture?width=800&height=800", sitio_oficial: "https://agalega.gal/", … }
+malaga24h	{ nombre: "Málaga 24h TV Noticias", logo: "https://graph.facebook.com/Malaga24hTv/picture?width=800&height=800", sitio_oficial: "https://malaga24h.com/directo-de-malaga-24-horas/", … }
+televisioncanaria	{ nombre: "TelevisionCanaria", logo: "https://graph.facebook.com/RadioTelevisionCanaria/picture?width=800&height=800", sitio_oficial: "https://rtvc.es/en-directo/", … }
+cnnee	{ nombre: "CNN en Español", logo: "https://graph.facebook.com/CNNee/picture?width=800&height=800", sitio_oficial: "https://cnnespanol.cnn.com/", … }
+la-vanguardia	{ nombre: "La Vanguardia", logo: "https://graph.facebook.com/LaVanguardia/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UClLLRs_mFTsNT5U-DqTYAGg", … }
+camarasdetraficodevigo8409	{ nombre: "Cámaras de tráfico de Vigo", sitio_oficial: "https://www.youtube.com/channel/UC30mmDZa-tMpIS-cIXoErsA", "país": "es", … }
+ecuavisa	{ nombre: "Ecuavisa", logo: "https://graph.facebook.com/ecuavisa/picture?width=800&height=800", sitio_oficial: "https://www.ecuavisa.com/envivo", … }
+ecoteltv	{ nombre: "Ecotel TV", logo: "https://graph.facebook.com/CadenaEcotel/picture?width=800&height=800", sitio_oficial: "https://www.ecotel.tv/", … }
+catomedia-ucsg	{ nombre: "Catomedia UCSG", logo: "https://graph.facebook.com/catomediaucsg/picture?width=800&height=800", sitio_oficial: "https://catomedia.net/", … }
+canaltvdigital	{ nombre: "Canal Tv Digital", logo: "https://graph.facebook.com/tvdigitalonline.ecu/picture?width=800&height=800", sitio_oficial: "https://canaltvdigitalonline.com/", … }
+periodicodeunaec	{ nombre: "Periódico D'Una", logo: "https://graph.facebook.com/periodicodeuna/picture?width=800&height=800", sitio_oficial: "https://deunanoticias.com/", … }
+café-la-posta	{ nombre: "Café la Posta", logo: "https://graph.facebook.com/LaPostaEc/picture?width=800&height=800", sitio_oficial: "https://www.laposta.ec/", … }
+radiocentroec	{ nombre: "Radio Centro 101.3 FM", logo: "https://graph.facebook.com/radiocentroec/picture?width=800&height=800", sitio_oficial: "https://radiocentro.com.ec/en-vivo/", … }
+radioelite99-7tv5	{ nombre: "Radio Elite 99.7 TV", logo: "https://graph.facebook.com/Radioelite997/picture?width=800&height=800", sitio_oficial: "https://radioelite997.com/online/", … }
+radiosonoonda997	{ nombre: "Radio Sono Onda", logo: "https://graph.facebook.com/radiosonoonda997/picture?width=800&height=800", sitio_oficial: "https://sonoonda.com/tv-online/", … }
+radiorumbaec	{ nombre: "Radio Rumba 107.3 FM", logo: "https://graph.facebook.com/RadioRumbaEc/picture?width=800&height=800", sitio_oficial: "https://radiorumba.fm/", … }
+radiopichincha	{ nombre: "Radio Pichincha Multimedia", logo: "https://graph.facebook.com/PichinchaRadio/picture?width=800&height=800", sitio_oficial: "https://www.radiopichincha.com/", … }
+sonoramatv900	{ nombre: "Sonorama TV", logo: "https://graph.facebook.com/radio.sonorama/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCGOHw6AjriiGhkJnDAhJsRA", … }
+una-nueva-mañana	{ nombre: "Una Nueva Mañana", logo: "https://graph.facebook.com/unanuevamananaa/picture?width=800&height=800", sitio_oficial: "https://unanuevamanana.com/", … }
+tcsnoticias8899	{ nombre: "TCS Noticias", logo: "https://graph.facebook.com/tcsnoticias/picture?width=800&height=800", sitio_oficial: "https://www.esmitv.com/", … }
+global-news	{ nombre: "Global News", sitio_oficial: "https://globalnews.ca/live/national/", "país": "ca", … }
+cbc-news	{ nombre: "CBC News", logo: "https://i.imgur.com/SjTdhvJ.png", sitio_oficial: "https://www.youtube.com/channel/UCuFFtHWoLl5fauMMD5Ww2jA", … }
+abc7-swfl	{ nombre: "ABC7 SWFL", sitio_oficial: "https://www.abc-7.com/", "país": "us", … }
+abc-news	{ nombre: "ABC News", sitio_oficial: "https://abcnews.go.com/Live", "país": "us", … }
+agenda-free-tv	{ nombre: "Agenda-Free TV", sitio_oficial: "https://twitter.com/agendafreetv", "país": "us", … }
+bloomberg-us	{ nombre: "Bloomberg US", sitio_oficial: "https://www.bloomberg.com/", "país": "us", … }
+bloomberg-europe	{ nombre: "Bloomberg Europe", sitio_oficial: "https://www.bloomberg.com/europe", "país": "us", … }
+bloomberg-quicktake	{ nombre: "Bloomberg QuickTake", sitio_oficial: "https://www.bloomberg.com/Quicktake", "país": "us", … }
+cheddar	{ nombre: "Cheddar", sitio_oficial: "https://cheddar.com/live", "país": "us", … }
+cbsn	{ nombre: "CBSN", sitio_oficial: "https://www.cbsnews.com/live/", "país": "us", … }
+livenow-from-fox	{ nombre: "LiveNOW from FOX", sitio_oficial: "https://www.livenowfox.com/", "país": "us", … }
+newsmax	{ nombre: "Newsmax", sitio_oficial: "https://www.newsmax.com/", "país": "us", … }
+nbc-news	{ nombre: "NBC News", sitio_oficial: "https://www.nbcnews.com/", "país": "us", … }
+telemundo	{ nombre: "Noticias Telemundo", sitio_oficial: "https://www.telemundo.com/noticias", "país": "us", … }
+abc13houston	{ nombre: "ABC13Houston", logo: "https://graph.facebook.com/abc13Houston/picture?width=800&height=800", sitio_oficial: "https://abc13.com/watch/live/", … }
+wplg-local-10	{ nombre: "WPLG Local 10", logo: "https://graph.facebook.com/WPLGLocal10/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCgVZ0mrM3liHNhRYC5Mchgg", … }
+abc7chicago	{ nombre: "ABC 7 Chicago", logo: "https://graph.facebook.com/abc7chicago/picture?width=800&height=800", sitio_oficial: "https://abc7chicago.com/watch/live/", … }
+usatoday	{ nombre: "USA TODAY", logo: "https://graph.facebook.com/usatoday/picture?width=800&height=800", sitio_oficial: "https://www.usatoday.com/", … }
+cnbc	{ nombre: "CNBC", logo: "https://graph.facebook.com/CNBC/picture?width=800&height=800", sitio_oficial: "https://www.cnbc.com/live-tv/", … }
+evtv	{ nombre: "EVTV MIAMI", logo: "https://graph.facebook.com/evtvmiami/picture?width=800&height=800", sitio_oficial: "https://evtv.online/noticias-de-venezuela/", … }
+associated-press	{ nombre: "Associated Press", logo: "https://graph.facebook.com/APNews/picture?width=800&height=800", sitio_oficial: "https://www.apnews.com/", … }
+naciones-unidas	{ nombre: "Naciones Unidas", sitio_oficial: "https://www.un.org/", "país": "us", … }
+thegameawards	{ nombre: "The Game Awards", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_Game_Awards_Logo_2024.svg/1200px-The_Game_Awards_Logo_2024.svg.png", sitio_oficial: "https://thegameawards.com/", … }
+ihopkc	{ nombre: "International House of Prayer", logo: "https://graph.facebook.com/ihopkc/picture?width=800&height=800", sitio_oficial: "https://www.ihopkc.org/prayerroom/", … }
+axisexperiencecentersouthc7747	{ nombre: "Axis Experience Center South Central", logo: "https://graph.facebook.com/axiscommunications/picture?width=800&height=800", sitio_oficial: "https://www.axis.com/", … }
+times-square	{ nombre: "Times Square Live 4K", sitio_oficial: "https://www.earthcam.net/", "país": "us", … }
+puente-brooklyn	{ nombre: "St. George Tower", sitio_oficial: "https://stgeorgetower.com/", "país": "us", … }
+bryant-park	{ nombre: "Bryant Park NYC", sitio_oficial: "https://bryantpark.org/", "país": "us", … }
+lorain-portand-finance-authority	{ nombre: "Lorain Port and Finance Authority", logo: "https://lorainport.com/wp-content/uploads/2020/09/lpfa-logo-full-color-rgb-extended-300x130.jpg", sitio_oficial: "https://www.lorainport.com/", … }
+castro-street-cam-1	{ nombre: "Castro Street Cam 1", sitio_oficial: "https://www.youtube.com/channel/UCoFUleuZUyRUVDjO4JcCSTQ", "país": "us", … }
+castro-street-cam-2	{ nombre: "Castro Street Cam 2", sitio_oficial: "https://www.youtube.com/channel/UClSdxxEoPbpZHrujhfQcdow", "país": "us", … }
+castro-street-cam-3	{ nombre: "Castro Street Cam 3", sitio_oficial: "https://www.youtube.com/channel/UCKxzK9FBETp6vK3wdqrUelQ", "país": "us", … }
+castro-street-cam-4	{ nombre: "Castro Street Cam 4", sitio_oficial: "https://www.youtube.com/channel/UC7bQdkO4Q21ZU1Akc1kKVjA", "país": "us", … }
+nasa	{ nombre: "NASA Live", sitio_oficial: "https://www.nasa.gov/", "país": "us", … }
+spacex	{ nombre: "SpaceX", sitio_oficial: "https://www.spacex.com/", "país": "us", … }
+blue-origin	{ nombre: "Blue Origin", sitio_oficial: "https://www.blueorigin.com/", "país": "us", … }
+virgin-galactic	{ nombre: "Virgin Galactic", sitio_oficial: "https://www.virgingalactic.com/", "país": "us", … }
+euronews-esp	{ nombre: "euronews (Español)", sitio_oficial: "https://es.euronews.com/", "país": "fr", … }
+euronews-eng	{ nombre: "euronews (English)", sitio_oficial: "https://www.euronews.com/", "país": "fr", … }
+euronews-rus	{ nombre: "euronews Русский", sitio_oficial: "https://ru.euronews.com/", "país": "fr", … }
+euronews-hun	{ nombre: "euronews (magyarul)", sitio_oficial: "https://hu.euronews.com/", "país": "fr", … }
+france-24-esp	{ nombre: "FRANCE 24 Español", sitio_oficial: "https://www.france24.com/es/", "país": "fr", … }
+france-24-eng	{ nombre: "FRANCE 24 English", sitio_oficial: "https://www.france24.com/en/", "país": "fr", … }
+france-info	{ nombre: "franceinfo", sitio_oficial: "https://www.francetvinfo.fr/", "país": "fr", … }
+dw-news-es	{ nombre: "DW Español", logo: "https://deultimominuto.net/wp-content/uploads/2022/03/DW-LOGO.jpg", sitio_oficial: "https://www.dw.com/es", … }
+dw-news	{ nombre: "DW News", logo: "https://deultimominuto.net/wp-content/uploads/2022/03/DW-LOGO.jpg", sitio_oficial: "https://www.dw.com/en", … }
+dw-arabic	{ nombre: "DW عربية", logo: "https://deultimominuto.net/wp-content/uploads/2022/03/DW-LOGO.jpg", sitio_oficial: "https://www.dw.com/ar", … }
+welt	{ nombre: "WELT", sitio_oficial: "https://www.welt.de/", "país": "de", … }
+wearediamond	{ nombre: "We Are Diamond", logo: "https://graph.facebook.com/wearediamond1/picture?width=800&height=800", sitio_oficial: "https://wearediamond.net/", … }
+24-channel-online	{ nombre: "24 Канал онлайн", sitio_oficial: "https://24tv.ua/online/", "país": "ua", … }
+social-news	{ nombre: "Суспільне Новини", sitio_oficial: "https://suspilne.media/", "país": "ua", … }
+set-inews	{ nombre: "三立iNEWS", sitio_oficial: "https://live.setn.com/", "país": "cn", … }
+chinatvnews	{ nombre: "中視新聞 HD直播頻道", sitio_oficial: "https://www.ctv.com.tw/", "país": "cn", … }
+ctstw	{ nombre: "華視新聞 CH52", logo: "https://graph.facebook.com/TBSCTS/picture?width=800&height=800", sitio_oficial: "https://news.cts.com.tw/", … }
+cgtn	{ nombre: "CGTN", sitio_oficial: "https://www.cgtn.com/", "país": "cn", … }
+ftvnews53	{ nombre: "民視新聞網 Formosa TV News network", logo: "https://graph.facebook.com/ftvnews53/picture?width=800&height=800", sitio_oficial: "https://www.ftvnews.com.tw/live/live-channel/", … }
+nhk-world	{ nombre: "NHK World", sitio_oficial: "https://www3.nhk.or.jp/nhkworld/en/live/", "país": "jp", … }
+annnewsch	{ nombre: "ANNnewsCH", logo: "https://graph.facebook.com/tvasahinews/picture?width=800&height=800", sitio_oficial: "https://news.tv-asahi.co.jp/", … }
+htbnews	{ nombre: "HTB北海道ニュース", logo: "https://graph.facebook.com/htbnews/picture?width=800&height=800", sitio_oficial: "https://www.htb.co.jp/news/", … }
+RailCam	{ nombre: "Aoba traffics", sitio_oficial: "https://www.youtube.com/channel/UCynDLZ-YJnrMLSQvwYi-bUA", "país": "jp", … }
+trt-world	{ nombre: "TRT World", sitio_oficial: "https://www.trtworld.com/", "país": "tr", … }
+abp-majha	{ nombre: "ABP MAJHA", logo: "https://graph.facebook.com/abpmajha/picture?width=800&height=800", sitio_oficial: "https://marathi.abplive.com/live-tv", … }
+good-news-today	{ nombre: "Good News Today", logo: "https://graph.facebook.com/goodnewstoday/picture?width=800&height=800", sitio_oficial: "https://www.gnttv.com/livetv", … }
+abn-telugu	{ nombre: "ABN Telugu", logo: "https://graph.facebook.com/abntelugutv/picture?width=800&height=800", sitio_oficial: "https://www.andhrajyothy.com/live-tv", … }
+tv9telugulive	{ nombre: "TV9 Telugu Live", logo: "https://graph.facebook.com/tv9telugu/picture?width=800&height=800", sitio_oficial: "https://tv9telugu.com/live-tv", … }
+indiatv	{ nombre: "IndiaTV", logo: "https://graph.facebook.com/indiatvnews/picture?width=800&height=800", sitio_oficial: "https://www.indiatvnews.com/livetv", … }
+reporter-live	{ nombre: "REPORTER LIVE", logo: "https://graph.facebook.com/reporterlive/picture?width=800&height=800", sitio_oficial: "https://www.reporterlive.com/", … }
+hmtvnewslive	{ nombre: "hmtv News", logo: "https://graph.facebook.com/hmtvnewslive/picture?width=800&height=800", sitio_oficial: "https://www.hmtvlive.com/", … }
+ndtv-india	{ nombre: "NDTV India", logo: "https://graph.facebook.com/NDTVIndia/picture?width=800&height=800", sitio_oficial: "https://www.ndtv.com/", … }
+etnow	{ nombre: "ET NOW", logo: "https://graph.facebook.com/etnow/picture?width=800&height=800", sitio_oficial: "https://www.etnownews.com/", … }
+news18rajasthan	{ nombre: "News18 Rajasthan", logo: "https://graph.facebook.com/News18Rajasthan/picture?width=800&height=800", sitio_oficial: "https://hindi.news18.com/livetv/", … }
+news18assamnortheastlive	{ nombre: "News18 Assam/Northeast", logo: "https://graph.facebook.com/News18AssamNE/picture?width=800&height=800", sitio_oficial: "https://hindi.news18.com/livetv/", … }
+news18bangla	{ nombre: "News18 Bangla", logo: "https://graph.facebook.com/News18Bangla/picture?width=800&height=800", sitio_oficial: "https://bengali.news18.com/live-tv/", … }
+news18biharjharkhand	{ nombre: "News18 Bihar Jharkhand", logo: "https://graph.facebook.com/News18Bihar/picture?width=800&height=800", sitio_oficial: "https://hindi.news18.com/news/bihar/", … }
+news18gujarati	{ nombre: "News18 Gujarati", logo: "https://graph.facebook.com/News18Gujarati/picture?width=800&height=800", sitio_oficial: "https://www.news18.com/livetv/", … }
+news18india	{ nombre: "News18 India", logo: "https://graph.facebook.com/News18India/picture?width=800&height=800", sitio_oficial: "https://hindi.news18.com/", … }
+news18kannada	{ nombre: "News18 Kannada", logo: "https://graph.facebook.com/News18Kannada/picture?width=800&height=800", sitio_oficial: "https://kannada.news18.com/live-tv/", … }
+news18kerala	{ nombre: "News18 Kerala", logo: "https://graph.facebook.com/News18Kerala/picture?width=800&height=800", sitio_oficial: "https://malayalam.news18.com/", … }
+news18lokmattv	{ nombre: "News18 Lokmat", logo: "https://graph.facebook.com/News18Lokmat/picture?width=800&height=800", sitio_oficial: "https://lokmat.news18.com/", … }
+news18mpchhattisgarh	{ nombre: "News18 MP Chhattisgarh", logo: "https://graph.facebook.com/News18MP/picture?width=800&height=800", sitio_oficial: "https://hindi.news18.com/", … }
+news18odia	{ nombre: "News18 Odia", logo: "https://graph.facebook.com/News18Odia/picture?width=800&height=800", sitio_oficial: "https://odia.news18.com/odisha/", … }
+news18punjabharyanahimacha35	{ nombre: "News18 Punjab/Haryana/Himachal", logo: "https://graph.facebook.com/News18Haryana/picture?width=800&height=800", sitio_oficial: "https://punjab.news18.com/", … }
+news18tamilnadu	{ nombre: "News18 Tamil Nadu", logo: "https://graph.facebook.com/News18TamilNadu/picture?width=800&height=800", sitio_oficial: "https://tamil.news18.com/", … }
+news18urdu	{ nombre: "News18 Urdu", logo: "https://graph.facebook.com/EtvUrduIndia/picture?width=800&height=800", sitio_oficial: "https://urdu.news18.com/", … }
+news18uputtarakhand	{ nombre: "News18 UP Uttarakhand", logo: "https://graph.facebook.com/News18UP/picture?width=800&height=800", sitio_oficial: "https://hindi.news18.com/news/uttar-pradesh/", … }
+ddindia	{ nombre: "DD India", logo: "https://graph.facebook.com/DDIndiaLive/picture?width=800&height=800", sitio_oficial: "https://ddindia.co.in/", … }
+kairalinews	{ nombre: "Kairali News", logo: "https://graph.facebook.com/kairalinews/picture?width=800&height=800", sitio_oficial: "https://www.kairalinewsonline.com/live", … }
+cnn-news18	{ nombre: "CNN-News18", logo: "https://graph.facebook.com/cnnnews18/picture?width=800&height=800", sitio_oficial: "https://www.news18.com/livetv/", … }
+wion	{ nombre: "WION", logo: "https://graph.facebook.com/WIONews/picture?width=800&height=800", sitio_oficial: "https://www.wionews.com/live-tv", … }
+india-today	{ nombre: "India Today", logo: "https://graph.facebook.com/IndiaToday/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCYPvAwZP8pZhSMW8qs7cVCw", … }
+cnbctv18india	{ nombre: "CNBC-TV18", logo: "https://graph.facebook.com/cnbctv18india/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCmRbHAgG2k2vDUvb3xsEunQ", … }
+hindustan-times	{ nombre: "Hindustan Times", logo: "https://graph.facebook.com/hindustantimes/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCm7lHFkt2yB_WzL67aruVBQ", … }
+abn-digital-exclusives	{ nombre: "ABN Digital Exclusives", logo: "https://graph.facebook.com/somethingspecialvideos/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCMIobchb8wgycijrgc1UnZw", … }
+banglavisionlive	{ nombre: "BanglaVision LIVE", logo: "https://graph.facebook.com/banglavision/picture?width=800&height=800", sitio_oficial: "https://www.bvnews24.com/live/", … }
+al-jazeera-english	{ nombre: "Al Jazeera English", sitio_oficial: "https://www.aljazeera.com/live/", "país": "qa", … }
+al-jazeera-arabe	{ nombre: "AlJazeera Channel قناة الجزيرة", sitio_oficial: "https://www.aljazeera.com/live/", "país": "qa", … }
+vatican-news	{ nombre: "Vatican News", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-english	{ nombre: "Vatican News English", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-español	{ nombre: "Vatican News Español", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-italiano	{ nombre: "Vatican News Italiano", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-portugues	{ nombre: "Vatican News Português", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-frances	{ nombre: "Vatican News Français", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-aleman	{ nombre: "Vatican News Deutsch", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-polaco	{ nombre: "Vatican News Polski", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-vietnamita	{ nombre: "Vatican News Tiếng Việt", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+vatican-news-chino	{ nombre: "Vatican News 中文", logo: "https://static.wikia.nocookie.net/logopedia/images/4/41/Vatican_News_2017_(Icon).png/", sitio_oficial: "https://www.vaticannews.va/en.html", … }
+city21	{ nombre: "City 21 News", logo: "https://graph.facebook.com/C21.Karachi/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCB-8E662xOk1I3-wdhTMNiw", … }
+alquranhd	{ nombre: "AlQuranHD القران الكريم", logo: "https://graph.facebook.com/AlQuran4K/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCraPI8sg-eiNzUrurxhKeEQ", … }
+talonnews_hd	{ nombre: "Talon News HD", logo: "https://graph.facebook.com/TalonNewsHDOfficial/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCooaD1RPqtX2mY4yNc1PPqw", … }
+bolnewsofficial	{ nombre: "BOL News", logo: "https://graph.facebook.com/BOLNETWORK/picture?width=800&height=800", sitio_oficial: "https://www.bolnews.com/live/", … }
+samaatvnews	{ nombre: "SAMAA TV", logo: "https://graph.facebook.com/samaatvnews/picture?width=800&height=800", sitio_oficial: "https://live.samaa.tv/", … }
+dunyanewsofficial	{ nombre: "Dunya News", logo: "https://graph.facebook.com/dunyanews/picture?width=800&height=800", sitio_oficial: "https://dunyanews.tv/live/", … }
+globalquake	{ nombre: "GlobalQuake", logo: "https://img1.wsimg.com/isteam/ip/b2e252f8-5387-4660-ba31-3f433af7b108/blob-8a5d034.png", sitio_oficial: "https://globalquake.net/", … }
+gbnewsonline	{ nombre: "GBNews", logo: "https://graph.facebook.com/GBNewsOnline/picture?width=800&height=800", sitio_oficial: "https://www.gbnews.com/watch/live", … }
+cna	{ nombre: "CNA", sitio_oficial: "https://www.channelnewsasia.com/", "país": "sg", … }
+channels-television	{ nombre: "Channels Television", logo: "https://graph.facebook.com/channelsforum/picture?width=800&height=800", sitio_oficial: "https://www.channelstv.com/live", … }
+africanews	{ nombre: "africanews", logo: "https://graph.facebook.com/africanews.channel/picture?width=800&height=800", sitio_oficial: "https://www.africanews.com/live/", … }
+tvge	{ nombre: "TVGE (Ginea Ecuatorial)", logo: "https://pbs.twimg.com/profile_images/1382981938231775232/-lv9ymLe_400x400.jpg", sitio_oficial: "https://tvgelive.gq/", … }
+namibiacam	{ nombre: "NamibiaCam", sitio_oficial: "https://www.youtube.com/channel/UC9X6gGKDv2yhMoofoeS7-Gg", "país": "cf", … }
+abc-news-au	{ nombre: "ABC News AU", sitio_oficial: "https://www.abc.net.au/news/", "país": "au", … }
+hawaii-livecam	{ nombre: "Aqualink Hawaii", sitio_oficial: "https://www.youtube.com/channel/UCTLF36lXVM7uiR-VolWHv0Q", "país": "us-hi", … }
+daily-seoul	{ nombre: "Daily Seoul Live outdoor - Hangang", sitio_oficial: "https://www.youtube.com/channel/UCQKQTgZJo3PlxA-9V1Z51XA", "país": "kr", … }
+lofi-girl	{ nombre: "Lofi Girl", sitio_oficial: "https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow", "categoría": "music", … }
+chillhop	{ nombre: "Chillhop", sitio_oficial: "https://live.chillhop.com", "categoría": "music", … }
+steezyasfuck	{ nombre: "Steezyasfuck", sitio_oficial: "https://www.stzzzy.com/", "categoría": "music", … }
+doom-radio	{ nombre: "Doom Radio", sitio_oficial: "https://dcealopez.es/rip-tear-radio/", "categoría": "music", … }
+acidjazz	{ nombre: "AcidJazz", sitio_oficial: "https://www.youtube.com/channel/UC8cRYBn-z6y1EOUeMdJ0VHA", "categoría": "music", … }
+darkwave	{ nombre: "The 80s Guy", sitio_oficial: "https://www.youtube.com/channel/UC6ghlxmJNMd8BE_u1HR-bTg", "categoría": "music", … }
+chill-with-taiki	{ nombre: "Chill with Taiki", sitio_oficial: "https://www.youtube.com/channel/UCKdURsjh1xT1vInYBy82n6g", "categoría": "music", … }
+college-music	{ nombre: "College Music", sitio_oficial: "https://www.youtube.com/channel/UCWzZ5TIGoZ6o-KtbGCyhnhg", "categoría": "music", … }
+dark-monkey-music	{ nombre: "Dark Monkey Music", logo: "https://graph.facebook.com/DarkMonkeym/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCrcfRtdHb11YJEloTSaOYvw", … }
+tiempo-de-relajación-para-ti	{ nombre: "Tiempo de relajación para ti", sitio_oficial: "https://www.youtube.com/channel/UCKptJ-XQRf_4X4ZY9Cr_75Q", "categoría": "music", … }
+melody-note	{ nombre: "Melody Note 멜로디노트", sitio_oficial: "https://www.youtube.com/channel/UCBzTytkF5toaL4o5EHQ0UoA", "categoría": "music", … }
+j-radio	{ nombre: "J Radio 제이라디오", sitio_oficial: "https://www.youtube.com/channel/UCVrrOB7u5ZbxpiqbxhJ-kjw", "categoría": "music", … }
+sonido-de-fuego-relajante	{ nombre: "Sonido de fuego relajante", sitio_oficial: "https://www.youtube.com/channel/UCMlIZGBeueCZBUmEP-PddJg", "categoría": "music", … }
+pure-sleeping-vibes	{ nombre: "Pure Sleeping Vibes", sitio_oficial: "https://www.youtube.com/channel/UCa6DBGeztqfXOwcpUnk0Ccg", "categoría": "music", … }
+nocopyrightsounds	{ nombre: "NoCopyrightSounds", sitio_oficial: "https://www.youtube.com/channel/UC_aEa8K-EOJ3D6gOs7HcyNg", "categoría": "music", … }
+frequenzy	{ nombre: "frequenzy", logo: "https://graph.facebook.com/frequenzysessions/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UClRJcsRS9YETAAj0nG_pX6g", … }
+chillyourmind	{ nombre: "ChillYourMind", logo: "https://graph.facebook.com/chillyourmind/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCmDM6zuSTROOnZnjlt2RJGQ", … }
+rare-phonk	{ nombre: "rare phonk", sitio_oficial: "https://www.youtube.com/channel/UC8d8GkPcfQGa8lWAnqhElWg", "categoría": "music", … }
+cafe-music-bgm-channel	{ nombre: "Cafe Music BGM channel", logo: "https://graph.facebook.com/bgmc.bgmchannel/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCJhjE7wbdYAae1G25m0tHAA", … }
+relax-chillout-deep	{ nombre: "Relax Chillout Deep", sitio_oficial: "https://www.youtube.com/channel/UCm001e4lKtX7SULWHx6EdzA", "categoría": "music", … }
+ntparty98	{ nombre: "N&T Party", sitio_oficial: "https://www.youtube.com/channel/UCC9rwt1T2i4klATksN6prdQ", "categoría": "music", … }
+the-bootleg-boy-2	{ nombre: "the bootleg boy 2", sitio_oficial: "https://www.youtube.com/channel/UCwkTfp14Sj7o6q9_8ADJpnA", "categoría": "music", … }
+best-of-mix	{ nombre: "Best of Mix - Radios en Vivo", sitio_oficial: "https://www.youtube.com/channel/UCSx0CKSPK_jUE2REJtgHIPA", "categoría": "music", … }
+immortal-swings	{ nombre: "Immortal Swings", sitio_oficial: "https://www.youtube.com/channel/UCr_D8RsfDhZ1CVgD7l5ByoQ", "categoría": "music", … }
+amor-musica	{ nombre: "Amor Musica", sitio_oficial: "https://www.youtube.com/channel/UCR30r2JHz2eqQlutmPzWfhw", "categoría": "music", … }
+romantica-musica	{ nombre: "Romantica Musica", sitio_oficial: "https://www.youtube.com/channel/UC8HEkuYR6IJGMhZ8YqNFB3g", "categoría": "music", … }
+livemusicradio	{ nombre: "Radio Hits Music", sitio_oficial: "https://www.youtube.com/channel/UC0f4WJAjYdwl4XYHz-6FhyQ", "categoría": "music", … }
+tomorrowland	{ nombre: "Tomorrowland", logo: "https://graph.facebook.com/tomorrowland/picture?width=800&height=800", sitio_oficial: "https://www.tomorrowland.com/home/", … }
+nonstopmusic1990	{ nombre: "Nonstop Music", logo: "https://graph.facebook.com/nonstopmediarec/picture?width=800&height=800", sitio_oficial: "https://nonstop-records.com/", … }
+musichits6891	{ nombre: "Music Hits", sitio_oficial: "https://www.youtube.com/channel/UC-ITe1nKavRL6-Sl2aE3LKA", "categoría": "music", … }
+thegoodliferadio	{ nombre: "The Good Life Radio x Sensual Musique", sitio_oficial: "https://www.youtube.com/channel/UChs0pSaEoNLV4mevBFGaoKA", "categoría": "music", … }
+bgmtotorostudio	{ nombre: "BGM Totoro Studio", sitio_oficial: "https://www.youtube.com/channel/UCdg_xadHqcIT40t-rgwuSZg", "categoría": "music", … }
+camaras-aleatorias	{ nombre: "Boston and Maine Live", sitio_oficial: "https://www.youtube.com/channel/UC8gbWbcNNyb5-NIXvFklkOA", "categoría": "outdoor", … }
+birder-king	{ nombre: "Birder King", sitio_oficial: "https://www.youtube.com/channel/UC7wafFu5c8AO0YF5U7R7xFA", "categoría": "outdoor", … }
+alyssas-nature-sanctuary	{ nombre: "Alyssa's Nature Sanctuary", logo: "https://graph.facebook.com/alyssasnaturesanctuary/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCkirg3K9o212uh5BEt100NQ", … }
+afartv	{ nombre: "afarTV", sitio_oficial: "https://afar.tv/", "categoría": "outdoor", … }
+bob-ross	{ nombre: "Bob Ross (Todas las Temporadas)", sitio_oficial: "https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ", "categoría": "relax", … }
+nickelodeon-en-español	{ nombre: "Nickelodeon en Español", sitio_oficial: "https://www.youtube.com/channel/UCNeq3Obf4zOv5rhORI8Vz5g", "categoría": "kids", … }
+cartoon-network-la	{ nombre: "Cartoon Network LA", sitio_oficial: "https://www.youtube.com/channel/UCQySZQ6rrgJXRuonMwIIGMA", "categoría": "kids", … }
+disney-xd	{ nombre: "Disney XD", sitio_oficial: "https://www.youtube.com/channel/UCktaw9L-f65LzUUdjmCFkbQ", "categoría": "kids", … }
+robocar-poli-tv	{ nombre: "Robocar POLI TV", sitio_oficial: "https://www.youtube.com/channel/UCr-rCvgg21KqfrnGopaQeGw", "categoría": "animation", … }
+bob-esponja-en-español	{ nombre: "Bob Esponja en Español", sitio_oficial: "https://www.youtube.com/channel/UCMfYMB69Y1B-SlGKm1Tdb0Q", "categoría": "animation", … }
+power-rangers-official	{ nombre: "Power Rangers Official", sitio_oficial: "https://www.youtube.com/channel/UCpgxmlXoDtkYzRQ4cJgCT5A", "categoría": "kids", … }
+el-increíble-mundo-de-gumball-la	{ nombre: "El Increíble Mundo de Gumball LA", sitio_oficial: "https://www.youtube.com/channel/UCEsK4_SMT6zgDVUwuLHvo8g", "categoría": "animation", … }
+peacock-jr	{ nombre: "Peacock jr", sitio_oficial: "https://www.youtube.com/channel/UCKtfozhWfwvXUTnR7PV3t5g", "categoría": "kids", … }
+shaun-the-sheep-official	{ nombre: "Shaun the Sheep Official", logo: "https://graph.facebook.com/shaunthesheep/picture?width=800&height=800", sitio_oficial: "https://www.youtube.com/channel/UCS7H8U-n5mINVJjJsaRtGHg", … }
+kawaiigames	{ nombre: "KawaiiGames", sitio_oficial: "https://www.youtube.com/channel/UCGmvywjUliYi6MSwg_FuW_g", "categoría": "classic", … }
+game-master-tv	{ nombre: "Game Master TV", sitio_oficial: "https://www.youtube.com/channel/UC1AFNoYDu-Rub31kwug5drA", "categoría": "classic", … }
