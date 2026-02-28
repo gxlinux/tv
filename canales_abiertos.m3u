@@ -1,23 +1,23 @@
 {
   "canal-01": {
-    "nombre": "",
+    "nombre": "chavo del ocho",
     "logo": "",
     "señales": {
-      "iframe_url": [""]
+      "iframe_url": ["https://xcms.neocities.org/tv/chavo8"]
     },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "sitio_oficial": "https://xcms.neocities.org/tv/",
+    "país": "cl",
+    "categoría": "familiar"
   },
 
   "canal-02": {
-    "nombre": "",
+    "nombre": "canal institucional",
     "logo": "",
     "señales": {
-      "m3u8_url": [""]
+      "m3u8_url": ["https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"]
     },
-    "sitio_oficial": "",
-    "país": "",
+    "sitio_oficial": "https://www.canalinstitucional.tv",
+    "país": "cl",
     "categoría": ""
   },
 
