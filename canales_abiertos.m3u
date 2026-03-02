@@ -11,109 +11,109 @@
   },
 
   "canal-02": {
-    "nombre": "canal institucional",
+    "nombre": "Canal Institucional",
     "logo": "",
     "señales": {
       "m3u8_url": ["https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"]
     },
     "sitio_oficial": "https://www.canalinstitucional.tv",
-    "país": "cl",
-    "categoría": ""
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-03": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "BUM Televisión",
+    "logo": "https://i.imgur.com/I0eGYI0.png",
     "señales": {
-      "yt_id": ""
+      "m3u8_url": ["https://movil.ejeserver.com/live/visiondorada.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-04": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "Canal 1",
+    "logo": "https://i.imgur.com/MiYlN0t.png",
     "señales": {
-      "iframe_url": [""]
+      "m3u8_url": ["https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"]
     },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "sitio_oficial": "https://canal1.com.co",
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-05": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "Canal 8 TV+",
+    "logo": "https://i.imgur.com/peOIG1F.png",
     "señales": {
-      "m3u8_url": [""]
+      "m3u8_url": ["https://movil.ejeserver.com/live/canal8tv.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-06": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "Tu Universo TV",
+    "logo": "https://i.imgur.com/e6esjLZ.jpg",
     "señales": {
-      "yt_id": ""
+      "m3u8_url": ["https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "religioso"
   },
 
   "canal-07": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "Canal Más Televisión",
+    "logo": "https://i.imgur.com/ODMa27W.jpg",
     "señales": {
-      "iframe_url": [""]
+      "m3u8_url": ["https://movil.ejeserver.com/live/teledoradahd.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-08": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "Canal Mundo Visión",
+    "logo": "https://i.imgur.com/zRqfJuj.png",
     "señales": {
-      "m3u8_url": [""]
+      "m3u8_url": ["https://movil.ejeserver.com/live/mundovisiontv.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-09": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "TV San Jorge",
+    "logo": "https://i.imgur.com/vLU4Tcu.png",
     "señales": {
-      "yt_id": ""
+      "m3u8_url": ["https://asucap.com/livestream/asucap_envivo.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "general"
   },
 
   "canal-10": {
-    "nombre": "",
-    "logo": "",
+    "nombre": "TeveColombia",
+    "logo": "https://i.imgur.com/vPwiJTw.png",
     "señales": {
-      "iframe_url": [""]
+      "m3u8_url": ["https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8"]
     },
     "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
+    "país": "co",
+    "categoría": "entretenimiento"
   },
 
   "canal-11": {
     "nombre": "",
     "logo": "",
     "señales": {
-      "m3u8_url": [""]
+      "yt_id": ""
     },
     "sitio_oficial": "",
     "país": "",
@@ -124,7 +124,7 @@
     "nombre": "",
     "logo": "",
     "señales": {
-      "yt_id": ""
+      "iframe_url": [""]
     },
     "sitio_oficial": "",
     "país": "",
@@ -132,83 +132,6 @@
   },
 
   "canal-13": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "iframe_url": [""]
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-14": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "m3u8_url": [""]
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-15": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "yt_id": ""
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-16": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "iframe_url": [""]
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-17": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "m3u8_url": [""]
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-18": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "yt_id": ""
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-19": {
-    "nombre": "",
-    "logo": "",
-    "señales": {
-      "iframe_url": [""]
-    },
-    "sitio_oficial": "",
-    "país": "",
-    "categoría": ""
-  },
-
-  "canal-20": {
     "nombre": "",
     "logo": "",
     "señales": {
