@@ -1,4 +1,16 @@
 {
+  "chavo8": {
+  "nombre": "El Chavo del Ocho",
+  "logo": "",
+  "señales": {
+    "iframe_url": [
+      "https://xcms.neocities.org/tv/chavo8"
+    ]
+  },
+  "sitio_oficial": "",
+  "país": "mx",
+  "categoría": "familiar"
+}
   "meganoticias": {
     "nombre": "Meganoticias",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Meganoticias2019.png",
