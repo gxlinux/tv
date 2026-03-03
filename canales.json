@@ -1,16 +1,4 @@
 {
-  "8-chavo": {
-    "nombre": "el chavo del ocho",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png",
-    "señales": {
-      "iframe_url": [
-        "https://xcms.neocities.org/tv/chavo8",
-      ],
-    },
-    "sitio_oficial": "https://xcms.neocities.org/tv/chavo8",
-    "país": "cl",
-    "categoría": "news"
-  },
   "meganoticias": {
     "nombre": "Meganoticias",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Meganoticias2019.png",
