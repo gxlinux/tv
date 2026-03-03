@@ -1,17 +1,5 @@
 {
-  "chavo8": {
-  "nombre": "El Chavo del Ocho",
-  "logo": "",
-  "señales": {
-    "iframe_url": [
-      "https://xcms.neocities.org/tv/chavo8"
-    ]
-  },
-  "sitio_oficial": "",
-  "país": "mx",
-  "categoría": "familiar"
-},
-  "meganoticias": {
+ "meganoticias": {
     "nombre": "Meganoticias",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Meganoticias2019.png",
     "señales": {
@@ -125,23 +113,22 @@
     "país": "cl",
     "categoría": "news"
   },
-  "cooperativa": {
-    "nombre": "Radio Cooperativa",
+  "chavo": {
+    "nombre": "chavo del 8 ",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Radio_Cooperativa_Logo.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/coopetv",
-        "https://unlimited11-cl.dps.live/cooperativafm/aac/icecast.audio"
+        "https://xcms.neocities.org/tv/chavo8"
       ],
       "m3u8_url": [
         "https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8"
       ],
-      "yt_id": "UC13uZwIWmnmBJQuiTJWbVhQ",
+      "yt_id": "fy_fYd3ZwPE",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "http://programas.cooperativa.cl/showalairelibre/",
+    "sitio_oficial": "https://www.vecindadch.com/videos/",
     "país": "cl",
     "categoría": "music"
   },
