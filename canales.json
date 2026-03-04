@@ -99,7 +99,6 @@
     "país": "cl",
     "categoría": "news"
   },
-  {
   "canelatv": {
     "nombre": "Canela tv",
     "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
@@ -182,6 +181,7 @@
     "sitio_oficial": "https://www.univision.com/",
     "país": "cl",
     "categoría": "news"
+   },
   "duna": {
     "nombre": "Radio Duna",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Radio_Duna_2005.jpg",
