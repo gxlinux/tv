@@ -83,11 +83,12 @@
     "país": "cl",
     "categoría": "news"
   },
-  "el-mostrador": {
+  {
+  "canelatv": {
     "nombre": "Canela tv",
     "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [https://canela.tv/player/channel/canela-tv2],
+      "iframe_url": ["https://canela.tv/player/channel/canela-tv2"],
       "m3u8_url": [],
       "yt_id": "UCAOZvFm0xSBcom35r6-mcEA",
       "yt_embed": "",
@@ -98,8 +99,9 @@
     "país": "cl",
     "categoría": "news"
   },
-  "la-tercera": {
-    "nombre": "CityTv ",
+
+  "citytv": {
+    "nombre": "CityTv",
     "logo": "https://assets.stickpng.com/images/5c091be92c6641059597e374.png",
     "señales": {
       "iframe_url": [],
@@ -113,8 +115,9 @@
     "país": "cl",
     "categoría": "news"
   },
+
   "chavo": {
-    "nombre": "chavo del 8 ",
+    "nombre": "chavo del 8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Radio_Cooperativa_Logo.svg",
     "señales": {
       "iframe_url": [
@@ -132,17 +135,13 @@
     "país": "cl",
     "categoría": "music"
   },
-  "bbtv": {
-    "nombre": "caracol noticias",
+
+  "caracol": {
+    "nombre": "Caracol Noticias",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Biobio_TV_logo.jpg",
     "señales": {
-      "iframe_url": [
-        ""
-      ],
-      "m3u8_url": [
-        
-        ""
-      ],
+      "iframe_url": [""],
+      "m3u8_url": [""],
       "yt_id": "kMNm9L0TM1w",
       "yt_embed": "",
       "yt_playlist": "",
@@ -152,16 +151,13 @@
     "país": "cl",
     "categoría": "news"
   },
-  "adn": {
+
+  "univision": {
     "nombre": "Univision",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/ADN_Radio_Chile.svg",
     "señales": {
-      "iframe_url": [
-        ""
-      ],
-      "m3u8_url": [
-        ""
-      ],
+      "iframe_url": [""],
+      "m3u8_url": [""],
       "yt_id": "V4C7VNfRATA",
       "yt_embed": "",
       "yt_playlist": "",
@@ -170,7 +166,6 @@
     "sitio_oficial": "https://www.univision.com/",
     "país": "cl",
     "categoría": "news"
-  },
   "duna": {
     "nombre": "Radio Duna",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Radio_Duna_2005.jpg",
