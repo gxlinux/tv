@@ -84,32 +84,32 @@
     "categoría": "news"
   },
   "el-mostrador": {
-    "nombre": "El Mostrador",
+    "nombre": "Canela tv",
     "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [https://canela.tv/player/channel/canela-tv2],
       "m3u8_url": [],
       "yt_id": "UCAOZvFm0xSBcom35r6-mcEA",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://www.elmostrador.cl/",
+    "sitio_oficial": "https://canela.tv/",
     "país": "cl",
     "categoría": "news"
   },
   "la-tercera": {
-    "nombre": "La Tercera",
+    "nombre": "CityTv ",
     "logo": "https://assets.stickpng.com/images/5c091be92c6641059597e374.png",
     "señales": {
       "iframe_url": [],
       "m3u8_url": [],
-      "yt_id": "UCEQ_IiWGNvyvwSF3Sd-aQFA",
+      "yt_id": "1uklN007Bjw",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://www.youtube.com/channel/UCEQ_IiWGNvyvwSF3Sd-aQFA",
+    "sitio_oficial": "https://citytv.eltiempo.com/",
     "país": "cl",
     "categoría": "news"
   },
@@ -133,45 +133,43 @@
     "categoría": "music"
   },
   "bbtv": {
-    "nombre": "Radio Biobio TV",
+    "nombre": "caracol noticias",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Biobio_TV_logo.jpg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/bbtv",
-        "https://rudo.video/live/bbclccp"
+        ""
       ],
       "m3u8_url": [
-        "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
-        "https://pantera1-100gb-cl-movistar.dps.live/bbclccp/bbclccp.smil/playlist.m3u8"
+        
+        ""
       ],
-      "yt_id": "UCuvM3c8rmdApmk-g22shZ7w",
+      "yt_id": "kMNm9L0TM1w",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://www.biobiochile.cl/biobiotv/",
+    "sitio_oficial": "https://www.noticiascaracol.com/",
     "país": "cl",
-    "categoría": "music"
+    "categoría": "news"
   },
   "adn": {
-    "nombre": "Radio ADN",
+    "nombre": "Univision",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/ADN_Radio_Chile.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/adntv"
+        ""
       ],
       "m3u8_url": [
-        "https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8",
-        "https://jireh-2-hls-video-us-isp.dps.live/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8"
+        ""
       ],
-      "yt_id": "UCczkrFICr0xEgDsk51zZojA",
+      "yt_id": "V4C7VNfRATA",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://www.adnradio.cl/noticias/videos/",
+    "sitio_oficial": "https://www.univision.com/",
     "país": "cl",
-    "categoría": "music"
+    "categoría": "news"
   },
   "duna": {
     "nombre": "Radio Duna",
