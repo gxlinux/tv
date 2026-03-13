@@ -117,19 +117,23 @@
   "sitio_oficial": "https://www.senalcolombia.tv/",
   "país": "co",
   "categoría": "general"
-}
-  "citytv": {
-    "nombre": "CityTv",
+},
+  "caracola-tv": {
+    "nombre": "caracola tv",
     "logo": "https://assets.stickpng.com/images/5c091be92c6641059597e374.png",
     "señales": {
-      "iframe_url": [],
-      "m3u8_url": [],
+      "iframe_url": [
+    
+      ],
+      "m3u8_url": [
+       "https://wifiscled.traclmn.tv:1936/comunales/cclacola-tv/playlist.m3u8"
+      ],
       "yt_id": "1uklN007Bjw",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://citytv.eltiempo.com/",
+    "sitio_oficial": "https://www.cclacolatv.cl/",
     "país": "cl",
     "categoría": "news"
   },
