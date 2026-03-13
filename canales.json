@@ -84,35 +84,40 @@
     "categoría": "news"
   },
   "canal-institucional": {
-    "nombre": "canal institucional",
-    "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
-    "señales": {
-      "iframe_url": [""],
-      "m3u8_url": ["https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"],
-      "yt_id": "",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.canalinstitucional.tv/",
-    "país": "cl",
-    "categoría": "news"
+  "nombre": "Canal Institucional",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Canal_Institucional_logo.png",
+  "señales": {
+    "iframe_url": [],
+    "m3u8_url": [
+      "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"
+    ],
+    "yt_id": "",
+    "yt_embed": "",
+    "yt_playlist": "",
+    "twitch_id": ""
   },
-  "senal-colombia": {
-    "nombre": "senal colombia",
-    "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
-    "señales": {
-      "iframe_url": [""],
-      "m3u8_url": ["https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"],
-      "yt_id": "",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.senalcolombia.tv/",
-    "país": "cl",
-    "categoría": "news"
+  "sitio_oficial": "https://www.canalinstitucional.tv/",
+  "país": "co",
+  "categoría": "news"
+},
+
+"senal-colombia": {
+  "nombre": "Señal Colombia",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Senal_Colombia_logo.png",
+  "señales": {
+    "iframe_url": [],
+    "m3u8_url": [
+      "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
+    ],
+    "yt_id": "",
+    "yt_embed": "",
+    "yt_playlist": "",
+    "twitch_id": ""
   },
+  "sitio_oficial": "https://www.senalcolombia.tv/",
+  "país": "co",
+  "categoría": "general"
+}
   "citytv": {
     "nombre": "CityTv",
     "logo": "https://assets.stickpng.com/images/5c091be92c6641059597e374.png",
