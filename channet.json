@@ -1,82 +1,79 @@
 {
   "canaluno": {
-  "nombre": "Canal Uno",
-  "logo": "https://i.imgur.com/MiYlN0t.png",
-  "señales": {
-    "iframe_url": [],
-    "m3u8_url": [
-      "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
-    ],
-    "yt_id": "",
-    "yt_embed": "",
-    "yt_playlist": "",
-    "twitch_id": ""
+    "nombre": "Canal Uno",
+    "logo": "https://i.imgur.com/MiYlN0t.png",
+    "señales": {
+      "iframe_url": [],
+      "m3u8_url": [
+        "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "https://canal1.com.co/",
+    "país": "cl",
+    "categoría": "news"
   },
-  "sitio_oficial": "https://canal1.com.co/",
-  "país": "cl",
-  "categoría": "news"
-},
   "canal-institucional": {
-  "nombre": "Canal Institucional",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Canal_Institucional_logo.png",
-  "señales": {
-    "iframe_url": [],
-    "m3u8_url": [
-      "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"
-    ],
-    "yt_id": "",
-    "yt_embed": "",
-    "yt_playlist": "",
-    "twitch_id": ""
+    "nombre": "Canal Institucional",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Canal_Institucional_logo.png",
+    "señales": {
+      "iframe_url": [],
+      "m3u8_url": [
+        "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "https://www.canalinstitucional.tv/",
+    "país": "cl",
+    "categoría": "news"
   },
-  "sitio_oficial": "https://www.canalinstitucional.tv/",
-  "país": "cl",
-  "categoría": "news"
-},
-
-"senal-colombia": {
-  "nombre": "Señal Colombia",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Senal_Colombia_logo.png",
-  "señales": {
-    "iframe_url": [],
-    "m3u8_url": [
-      "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
-    ],
-    "yt_id": "",
-    "yt_embed": "",
-    "yt_playlist": "",
-    "twitch_id": ""
+  "senal-colombia": {
+    "nombre": "Señal Colombia",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Senal_Colombia_logo.png",
+    "señales": {
+      "iframe_url": [],
+      "m3u8_url": [
+        "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "https://www.senalcolombia.tv/",
+    "país": "cl",
+    "categoría": "general"
   },
-  "sitio_oficial": "https://www.senalcolombia.tv/",
-  "país": "cl",
-  "categoría": "general"
-},
   "bumt": {
-  "nombre": "BUM Televisión",
-  "logo": "https://i.imgur.com/I0eGYI0.png",
-  "señales": {
-    "iframe_url": [],
-    "m3u8_url": [
-      "https://movil.ejeserver.com/live/visiondorada.m3u8"
-    ],
-    "yt_id": "",
-    "yt_embed": "",
-    "yt_playlist": "",
-    "twitch_id": ""
+    "nombre": "BUM Televisión",
+    "logo": "https://i.imgur.com/I0eGYI0.png",
+    "señales": {
+      "iframe_url": [],
+      "m3u8_url": [
+        "https://movil.ejeserver.com/live/visiondorada.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "https://www.bumtelevision.com.co/",
+    "país": "cl",
+    "categoría": "general"
   },
-  "sitio_oficial": "https://www.bumtelevision.com.co/",
-  "país": "cl",
-  "categoría": "general"
-},
   "aguacate": {
     "nombre": "Aguacate TV",
     "logo": "https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg",
     "señales": {
-      "iframe_url": [
-    
-      ],
+      "iframe_url": [],
       "m3u8_url": [
-       "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
+        "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
@@ -91,11 +88,9 @@
     "nombre": "Antena SUR",
     "logo": "https://i.imgur.com/4aHrD2l.jpeg",
     "señales": {
-      "iframe_url": [
-    
-      ],
+      "iframe_url": [],
       "m3u8_url": [
-       "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
@@ -106,15 +101,13 @@
     "país": "cl",
     "categoría": "news"
   },
-asoma": {
+  "asoma": {
     "nombre": "Asomavisión",
     "logo": "https://i.imgur.com/a5avk5R.png",
     "señales": {
-      "iframe_url": [
-    
-      ],
+      "iframe_url": [],
       "m3u8_url": [
-       "https://asomatv.cloud-ip.cc/livestream/stream.m3u8"
+        "https://asomatv.cloud-ip.cc/livestream/stream.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
@@ -125,8 +118,6 @@ asoma": {
     "país": "cl",
     "categoría": "news"
   },
-
-
   "el-mostrador": {
     "nombre": "El Mostrador",
     "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
@@ -142,7 +133,6 @@ asoma": {
     "país": "cl",
     "categoría": "news"
   },
-
   "universo": {
     "nombre": "Radio Universo",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_Radio_Universo.png",
