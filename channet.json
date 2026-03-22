@@ -68,22 +68,22 @@
   "país": "cl",
   "categoría": "general"
 },
-  "caracola-tv": {
-    "nombre": "caracola tv",
-    "logo": "https://assets.stickpng.com/images/5c091be92c6641059597e374.png",
+  "aguacate": {
+    "nombre": "Aguacate TV",
+    "logo": "https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg",
     "señales": {
       "iframe_url": [
     
       ],
       "m3u8_url": [
-       "https://wifiscled.traclmn.tv:1936/comunales/cclacola-tv/playlist.m3u8"
+       "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
       ],
-      "yt_id": "1uklN007Bjw",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://www.cclacolatv.cl/",
+    "sitio_oficial": "",
     "país": "cl",
     "categoría": "news"
   },
