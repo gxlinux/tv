@@ -118,6 +118,23 @@
     "país": "cl",
     "categoría": "news"
   },
+  "bbc": {
+    "nombre": "BBC Drama",
+    "logo": "https://i.imgur.com/HctHhLL.png",
+    "señales": {
+      "iframe_url": [],
+      "m3u8_url": [
+        "https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "cl",
+    "categoría": "news"
+  },
   "el-mostrador": {
     "nombre": "El Mostrador",
     "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
