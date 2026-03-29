@@ -1,0 +1,32 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="canaluno" tvg-name="Canal Uno" tvg-logo="https://i.imgur.com/MiYlN0t.png" group-title="news",Canal Uno
+https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8
+
+#EXTINF:-1 tvg-id="canal-institucional" tvg-name="Canal Institucional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Canal_Institucional_logo.png" group-title="news",Canal Institucional
+https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="senal-colombia" tvg-name="Señal Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Senal_Colombia_logo.png" group-title="general",Señal Colombia
+https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="bumt" tvg-name="BUM Televisión" tvg-logo="https://i.imgur.com/I0eGYI0.png" group-title="general",BUM Televisión
+https://movil.ejeserver.com/live/visiondorada.m3u8
+
+#EXTINF:-1 tvg-id="aguacate" tvg-name="Aguacate TV" tvg-logo="https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg" group-title="news",Aguacate TV
+https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
+
+#EXTINF:-1 tvg-id="antenasur" tvg-name="Antena SUR" tvg-logo="https://i.imgur.com/4aHrD2l.jpeg" group-title="news",Antena SUR
+https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8
+
+#EXTINF:-1 tvg-id="asoma" tvg-name="Asomavisión" tvg-logo="https://i.imgur.com/a5avk5R.png" group-title="news",Asomavisión
+https://asomatv.cloud-ip.cc/livestream/stream.m3u8
+
+#EXTINF:-1 tvg-id="bbc" tvg-name="BBC Drama" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="news",BBC Drama
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN SPORTS XTRA" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="sports",BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8
+
+#EXTINF:-1 tvg-id="bravo" tvg-name="Bravo TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png" group-title="news",Bravo TV
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?did=b2201035844768f58630b7eef
+
