@@ -16,7 +16,8 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "canal_institucional": {
+
+  "canal-institucional": {
     "nombre": "Canal Institucional",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Canal_Institucional_logo.png",
     "señales": {
@@ -33,7 +34,8 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "senal_colombia": {
+
+  "senal-colombia": {
     "nombre": "Señal Colombia",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Senal_Colombia_logo.png",
     "señales": {
@@ -50,6 +52,7 @@
     "pais": "cl",
     "categoria": "general"
   },
+
   "bumt": {
     "nombre": "BUM Televisión",
     "logo": "https://i.imgur.com/I0eGYI0.png",
@@ -67,6 +70,7 @@
     "pais": "cl",
     "categoria": "general"
   },
+
   "aguacate": {
     "nombre": "Aguacate TV",
     "logo": "https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg",
@@ -84,6 +88,7 @@
     "pais": "cl",
     "categoria": "news"
   },
+
   "antenasur": {
     "nombre": "Antena SUR",
     "logo": "https://i.imgur.com/4aHrD2l.jpeg",
@@ -101,6 +106,7 @@
     "pais": "cl",
     "categoria": "news"
   },
+
   "asoma": {
     "nombre": "Asomavisión",
     "logo": "https://i.imgur.com/a5avk5R.png",
@@ -118,6 +124,7 @@
     "pais": "cl",
     "categoria": "news"
   },
+
   "bbc": {
     "nombre": "BBC Drama",
     "logo": "https://i.imgur.com/HctHhLL.png",
@@ -135,6 +142,7 @@
     "pais": "cl",
     "categoria": "news"
   },
+
   "bein": {
     "nombre": "BeIN SPORTS XTRA",
     "logo": "https://i.imgur.com/V562tpO.png",
@@ -150,8 +158,9 @@
     },
     "sitio_oficial": "",
     "pais": "cl",
-    "categoria": "sports"
+    "categoria": "news"
   },
+
   "bravo": {
     "nombre": "Bravo TV",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png",
@@ -167,9 +176,10 @@
     },
     "sitio_oficial": "",
     "pais": "cl",
-    "categoria": "entertainment"
+    "categoria": "news"
   },
-  "alpavision_neiva": {
+
+  "AlpavisionNeiva": {
     "nombre": "AlpavisionNeiva",
     "logo": "https://i.imgur.com/Yv8XIGW.png",
     "señales": {
@@ -186,7 +196,8 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "canal1_nuble": {
+
+  "Canal1Nuble": {
     "nombre": "Canal 1 Nuble",
     "logo": "https://i.imgur.com/PGSixH5.png",
     "señales": {
@@ -203,7 +214,8 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "buenatv": {
+
+  "BuenaTV": {
     "nombre": "BuenaTV",
     "logo": "https://i.imgur.com/tsajuxi.png",
     "señales": {
