@@ -16,7 +16,7 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "canal-institucional": {
+  "canal_institucional": {
     "nombre": "Canal Institucional",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Canal_Institucional_logo.png",
     "señales": {
@@ -33,7 +33,7 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "senal-colombia": {
+  "senal_colombia": {
     "nombre": "Señal Colombia",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Senal_Colombia_logo.png",
     "señales": {
@@ -169,14 +169,11 @@
     "pais": "cl",
     "categoria": "entertainment"
   },
-  "AlpavisionNeiva": {
+  "alpavision_neiva": {
     "nombre": "AlpavisionNeiva",
     "logo": "https://i.imgur.com/Yv8XIGW.png",
     "señales": {
-      "iframe_url": [
-        "",
-        ""
-      ],
+      "iframe_url": [],
       "m3u8_url": [
         "https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8"
       ],
@@ -189,14 +186,11 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "Canal1Nuble": {
+  "canal1_nuble": {
     "nombre": "Canal 1 Nuble",
     "logo": "https://i.imgur.com/PGSixH5.png",
     "señales": {
-      "iframe_url": [
-        "",
-        ""
-      ],
+      "iframe_url": [],
       "m3u8_url": [
         "https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8"
       ],
@@ -209,14 +203,11 @@
     "pais": "cl",
     "categoria": "news"
   },
-  "BuenaTV": {
+  "buenatv": {
     "nombre": "BuenaTV",
     "logo": "https://i.imgur.com/tsajuxi.png",
     "señales": {
-      "iframe_url": [
-        "",
-        ""
-      ],
+      "iframe_url": [],
       "m3u8_url": [
         "https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8"
       ],
