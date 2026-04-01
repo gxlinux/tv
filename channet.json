@@ -152,5 +152,20 @@
     "pais": "cl",
     "categoria": "news"
   
+ },
+  "game-master-tv": {
+    "nombre": "Game Master TV",
+    "logo": "",
+    "señales": {
+      "iframe_url": [],
+      "m3u8_url": [],
+      "yt_id": "UC1AFNoYDu-Rub31kwug5drA",
+      "yt_embed": "jB152vCnkBI",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "https://www.youtube.com/channel/UC1AFNoYDu-Rub31kwug5drA",
+    "país": "",
+    "categoría": "classic"
   }
 }
