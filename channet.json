@@ -179,7 +179,7 @@
     "categoria": "news"
   },
 
-  "AlpavisionNeiva": {
+  "alpavision": {
     "nombre": "AlpavisionNeiva",
     "logo": "https://i.imgur.com/Yv8XIGW.png",
     "señales": {
@@ -197,7 +197,7 @@
     "categoria": "news"
   },
 
-  "Canal1Nuble": {
+  "nuble": {
     "nombre": "Canal 1 Nuble",
     "logo": "https://i.imgur.com/PGSixH5.png",
     "señales": {
@@ -215,7 +215,7 @@
     "categoria": "news"
   },
 
-  "BuenaTV": {
+  "buena": {
     "nombre": "BuenaTV",
     "logo": "https://i.imgur.com/tsajuxi.png",
     "señales": {
