@@ -169,21 +169,8 @@
     "país": "cl",
     "categoría": "news"
   },
-  "el-mostrador": {
-    "nombre": "El Mostrador",
-    "logo": "https://graph.facebook.com/elmostrador/picture?width=800&height=800",
-    "señales": {
-      "iframe_url": [],
-      "m3u8_url": [],
-      "yt_id": "UCAOZvFm0xSBcom35r6-mcEA",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.elmostrador.cl/",
-    "país": "cl",
-    "categoría": "news"
-  },
+ 
+  {
   "AlpavisionNeiva": {
     "nombre": "AlpavisionNeiva",
     "logo": "https://i.imgur.com/Yv8XIGW.png",
@@ -243,22 +230,5 @@
     "sitio_oficial": "",
     "país": "cl",
     "categoría": "news"
-  },
-  "universo": {
-    "nombre": "Radio Universo",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_Radio_Universo.png",
-    "señales": {
-      "iframe_url": [
-        "https://redirector.dps.live/universo/aac/icecast.audio"
-      ],
-      "m3u8_url": [],
-      "yt_id": "",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.universo.cl/",
-    "país": "cl",
-    "categoría": "music"
   }
 }
