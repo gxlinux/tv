@@ -184,6 +184,66 @@
     "país": "cl",
     "categoría": "news"
   },
+  "AlpavisionNeiva": {
+    "nombre": "AlpavisionNeiva",
+    "logo": "https://i.imgur.com/Yv8XIGW.png",
+    "señales": {
+      "iframe_url": [
+        "",
+        ""
+      ],
+      "m3u8_url": [
+        "https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "cl",
+    "categoría": "news"
+  },
+  "Canal1Nuble": {
+    "nombre": "Canal 1 Nuble",
+    "logo": "https://i.imgur.com/PGSixH5.png",
+    "señales": {
+      "iframe_url": [
+        "",
+        ""
+      ],
+      "m3u8_url": [
+        "https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "cl",
+    "categoría": "news"
+  },
+  "BuenaTV": {
+    "nombre": "BuenaTV",
+    "logo": "https://i.imgur.com/tsajuxi.png",
+    "señales": {
+      "iframe_url": [
+        "",
+        ""
+      ],
+      "m3u8_url": [
+        "https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8"
+      ],
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "",
+      "twitch_id": ""
+    },
+    "sitio_oficial": "",
+    "país": "cl",
+    "categoría": "news"
+  },
   "universo": {
     "nombre": "Radio Universo",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_Radio_Universo.png",
