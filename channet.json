@@ -13,8 +13,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "https://canal1.com.co/",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "canal-institucional": {
     "nombre": "Canal Institucional",
@@ -30,8 +30,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "https://www.canalinstitucional.tv/",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "senal-colombia": {
     "nombre": "Señal Colombia",
@@ -47,8 +47,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "https://www.senalcolombia.tv/",
-    "país": "cl",
-    "categoría": "general"
+    "pais": "cl",
+    "categoria": "general"
   },
   "bumt": {
     "nombre": "BUM Televisión",
@@ -64,8 +64,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "https://www.bumtelevision.com.co/",
-    "país": "cl",
-    "categoría": "general"
+    "pais": "cl",
+    "categoria": "general"
   },
   "aguacate": {
     "nombre": "Aguacate TV",
@@ -81,8 +81,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "antenasur": {
     "nombre": "Antena SUR",
@@ -98,8 +98,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "asoma": {
     "nombre": "Asomavisión",
@@ -115,8 +115,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "bbc": {
     "nombre": "BBC Drama",
@@ -132,11 +132,11 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
-   "bein": {
-    "nombre": "BeIN SPORTS XTRA ",
+  "bein": {
+    "nombre": "BeIN SPORTS XTRA",
     "logo": "https://i.imgur.com/V562tpO.png",
     "señales": {
       "iframe_url": [],
@@ -149,10 +149,10 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "sports"
   },
-   "bravo": {
+  "bravo": {
     "nombre": "Bravo TV",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png",
     "señales": {
@@ -166,11 +166,9 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "entertainment"
   },
- 
-  {
   "AlpavisionNeiva": {
     "nombre": "AlpavisionNeiva",
     "logo": "https://i.imgur.com/Yv8XIGW.png",
@@ -188,8 +186,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "Canal1Nuble": {
     "nombre": "Canal 1 Nuble",
@@ -208,8 +206,8 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   },
   "BuenaTV": {
     "nombre": "BuenaTV",
@@ -228,7 +226,7 @@
       "twitch_id": ""
     },
     "sitio_oficial": "",
-    "país": "cl",
-    "categoría": "news"
+    "pais": "cl",
+    "categoria": "news"
   }
 }
