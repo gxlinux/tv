@@ -298,16 +298,16 @@
     "categoría": "music"
   },
   "radio-genial": {
-    "nombre": "Radio Genial 100.5 FM",
+    "nombre": "Shesperito",
     "logo": "https://graph.facebook.com/RadioGenialFM/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "https://medios.tustreaming.cl/radiogenial/"
+        "https://xcms.neocities.org/tv/shesperito/"
       ],
       "m3u8_url": [
-        "https://v1.tustreaming.cl:19360/genialtv/genialtv.m3u8"
+        ""
       ],
-      "yt_id": "UCAIX5A-P4AZhcHRXqMJL_vA",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
