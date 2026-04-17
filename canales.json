@@ -393,14 +393,14 @@
     "categoría": "music"
   },
   "radio-nuble": {
-    "nombre": "Radio Ñuble 89.7 FM",
+    "nombre": "music video tv",
     "logo": "https://graph.facebook.com/laNuble/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "https://streaming.comunicacioneschile.net/9358/stream"
+        "https://xcms.neocities.org/tv/musicvideo"
       ],
       "m3u8_url": [
-        "https://live.tvcontrolcp.com:1936/rnuble/rnuble/playlist.m3u8"
+        ""
       ],
       "yt_id": "",
       "yt_embed": "",
