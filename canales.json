@@ -40,17 +40,6 @@
     "país": "cl",
     "categoría": "news"
   },
-  "cnn-cl": {
-  "nombre": "clasicos animados ",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png",
-  "señales": {
-    "iframe_url": [],
-    "m3u8_url": [],
-    "yt_id": "fHoEd1hE0HY",
-    "yt_embed": "",
-    "yt_playlist": "",
-    "twitch_id": ""
-  },
   "chv-noticias": {
     "nombre": "Ecutel",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/CHV_Noticias_2018.png",
