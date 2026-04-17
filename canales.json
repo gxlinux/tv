@@ -231,11 +231,11 @@
     "categoría": "music"
   },
   "universo": {
-    "nombre": "Radio Universo",
+    "nombre": "luz y vida tv",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_Radio_Universo.png",
     "señales": {
       "iframe_url": [
-        "https://redirector.dps.live/universo/aac/icecast.audio"
+        "https://xcms.neocities.org/tv/luzyvidatv/home"
       ],
       "m3u8_url": [],
       "yt_id": "",
