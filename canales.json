@@ -317,17 +317,17 @@
     "categoría": "music"
   },
   "radio-la-clave": {
-    "nombre": "international Space Station",
+    "nombre": "Natio station video tv",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_La_Clave_2019.png",
     "señales": {
       "iframe_url": [
-        ""
+        "https://xcms.neocities.org/tv/natiostationtv"
       ],
       "m3u8_url": [
         "",
         ""
       ],
-      "yt_id": "0FBiyFpV__g",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": "radiolaclave"
