@@ -224,14 +224,14 @@
     "categoría": "music"
   },
   "radio-ae": {
-    "nombre": "Radio AE Radio DuocUC",
+    "nombre": "Scio tv ",
     "logo": "https://www.aeradio.cl/wp-content/uploads/2024/04/AE-RADIO-2024.png",
     "señales": {
       "iframe_url": [
-        "https://live.grupoz.cl/3e3852b5c1ea7821ab9cdfadbbe735f2"
+        "https://xcms.neocities.org/tv/home"
       ],
       "m3u8_url": [],
-      "yt_id": "UCZNfM5NJgXg1khL1D2_80Xg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
