@@ -374,14 +374,16 @@
     "categoría": "music"
   },
   "sembrador": {
-    "nombre": "Radio El Sembrador",
+    "nombre": "peliculas tv",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Radio_El_Sembrador.png",
     "señales": {
-      "iframe_url": [],
-      "m3u8_url": [
-        "https://tv.streaming-chile.com:19360/elsembrador/elsembrador.m3u8"
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/peliculas"
       ],
-      "yt_id": "UCKkS0gNNF3QdT2_xmSpOeng",
+      "m3u8_url": [
+        ""
+      ],
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
