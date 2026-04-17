@@ -49,9 +49,8 @@
         ""
       ],
       "m3u8_url": [
-        "",
-        "https://jireh-2-hls-video-cl-vtr.dps.live/hls-video/lvcl5/cnn/cnn.smil/cnn/livestream1/chunks.m3u8",
-        "https://jireh-4-hls-video-cl-isp.dps.live/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8"
+        "https://movil.ejeserver.com/live/visiondorada.m3u8"
+
       ],
       "yt_id": "",
       "yt_embed": "",
@@ -63,21 +62,21 @@
     "categoría": "news"
   },
   "chv-noticias": {
-    "nombre": "CHV Noticias",
+    "nombre": "Aguacate TV",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/CHV_Noticias_2018.png",
     "señales": {
       "iframe_url": [
-        "https://mdstrm.com/live-stream/6491ced935a5833c47dd7f41?volume=0",
-        "https://www.chvnoticias.cl/senal-online/",
-        "https://rudo.video/live/chvn"
+        "",
+        "",
+        ""
       ],
       "m3u8_url": [
-        "https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8"
+        "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
       ],
-      "yt_id": "UCRsUoZYC1ULUspipMRnMhwg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
-      "twitch_id": "chv_noticias"
+      "twitch_id": ""
     },
     "sitio_oficial": "https://www.chvnoticias.cl/senal-online/",
     "país": "cl",
