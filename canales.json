@@ -41,20 +41,15 @@
     "categoría": "news"
   },
   "cnn-cl": {
-  "nombre": "24/7 Heavy Metal Radio ",
+  "nombre": "clasicos animados ",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png",
   "señales": {
     "iframe_url": [],
     "m3u8_url": [],
-    "yt_id": "nFLPs44uzcY",
+    "yt_id": "fHoEd1hE0HY",
     "yt_embed": "",
     "yt_playlist": "",
     "twitch_id": ""
-  },
-
-    "sitio_oficial": "https://www.cnnchile.com/page/en-vivo/",
-    "país": "cl",
-    "categoría": "news"
   },
   "chv-noticias": {
     "nombre": "Ecutel",
