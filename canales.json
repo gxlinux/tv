@@ -241,16 +241,16 @@
     "categoría": "music"
   },
   "carolina-tv": {
-    "nombre": "Radio Carolina TV",
+    "nombre": "MTv",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo_Radio_Carolina_2020.png",
     "señales": {
       "iframe_url": [
-        "https://mdstrm.com/live-stream/63a06468117f42713374addd?volume=0"
+        "https://xcms.neocities.org/tv/mtv"
       ],
       "m3u8_url": [
-        "https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8"
+        ""
       ],
-      "yt_id": "UCmleXhXwXkhuL17RkSGAMXg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": "radiocarolina"
