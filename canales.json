@@ -317,17 +317,17 @@
     "categoría": "music"
   },
   "radio-la-clave": {
-    "nombre": "Radio La Clave",
+    "nombre": "international Space Station",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_La_Clave_2019.png",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/laclavetv"
+        ""
       ],
       "m3u8_url": [
-        "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8",
-        "https://pantera1-100gb-cl-movistar.dps.live/laclavetv/laclavetv.smil/playlist.m3u8"
+        "",
+        ""
       ],
-      "yt_id": "UCKGi2oU9Eoa5dJAIE7K60gA",
+      "yt_id": "0FBiyFpV__g",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": "radiolaclave"
