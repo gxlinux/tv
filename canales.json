@@ -260,14 +260,14 @@
     "categoría": "music"
   },
   "carolina2-tv": {
-    "nombre": "Radio Carolina 2 TV",
+    "nombre": "Saxum Station video TV",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo_Radio_Carolina_2020.png",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/carolinatv2"
+        "https://xcms.neocities.org/tv/saxumstationtv"
       ],
       "m3u8_url": [
-        "https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8"
+        ""
       ],
       "yt_id": "",
       "yt_embed": "",
