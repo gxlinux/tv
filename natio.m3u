@@ -1,5 +1,100 @@
 #EXTM3U
+#EXTM3U
 
+# Terror clásico (muchos tienen doblaje latino)
+
+#EXTINF:-1,Night of the Living Dead (ES)
+https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4
+
+#EXTINF:-1,House on Haunted Hill (ES)
+https://archive.org/download/house_on_haunted_hill/house_on_haunted_hill_512kb.mp4
+
+#EXTINF:-1,The Last Man on Earth (ES)
+https://archive.org/download/TheLastManOnEarth/TheLastManOnEarth_512kb.mp4
+
+#EXTINF:-1,White Zombie (ES)
+https://archive.org/download/white_zombie/white_zombie_512kb.mp4
+
+#EXTINF:-1,The Devil Bat (ES)
+https://archive.org/download/TheDevilBat/TheDevilBat_512kb.mp4
+
+
+# Cine mudo (sirve porque no depende idioma)
+
+#EXTINF:-1,Nosferatu (1922)
+https://archive.org/download/nosferatu/nosferatu_512kb.mp4
+
+#EXTINF:-1,Metropolis (1927)
+https://archive.org/download/metropolis_201912/metropolis_512kb.mp4
+
+#EXTINF:-1,The General (1926)
+https://archive.org/download/thegeneral/thegeneral_512kb.mp4
+
+#EXTINF:-1,The Kid (1921)
+https://archive.org/download/TheKid1921/TheKid1921_512kb.mp4
+
+#EXTINF:-1,Safety Last (1923)
+https://archive.org/download/SafetyLast1923/SafetyLast1923_512kb.mp4
+
+
+# Animación (más fácil en español)
+
+#EXTINF:-1,Gulliver's Travels (ES)
+https://archive.org/download/gullivers_travels/gullivers_travels_512kb.mp4
+
+#EXTINF:-1,Superman Cartoons (ES)
+https://archive.org/download/superman_cartoons/superman_cartoons_512kb.mp4
+
+
+# Sci-fi / serie B (muchas dobladas)
+
+#EXTINF:-1,Plan 9 del Espacio Exterior (ES)
+https://archive.org/download/Plan9/Plan9_512kb.mp4
+
+#EXTINF:-1,The Brain That Wouldn't Die (ES)
+https://archive.org/download/brain_that_wouldnt_die/brain_that_wouldnt_die_512kb.mp4
+
+#EXTINF:-1,Teenagers from Outer Space (ES)
+https://archive.org/download/TeenagersFromOuterSpace/TeenagersFromOuterSpace_512kb.mp4
+
+#EXTINF:-1,The Phantom Planet (ES)
+https://archive.org/download/ThePhantomPlanet/ThePhantomPlanet_512kb.mp4
+
+
+# Drama / noir
+
+#EXTINF:-1,Detour (1945)
+https://archive.org/download/detour/detour_512kb.mp4
+
+#EXTINF:-1,D.O.A. (1950)
+https://archive.org/download/doa_1950/doa_1950_512kb.mp4
+
+#EXTINF:-1,Scarlet Street (1945)
+https://archive.org/download/scarlet_street/scarlet_street_512kb.mp4
+
+#EXTINF:-1,The Stranger (1946)
+https://archive.org/download/TheStranger1946/TheStranger1946_512kb.mp4
+
+
+# Extras para completar lista funcional
+
+#EXTINF:-1,The Terror (1963)
+https://archive.org/download/TheTerror1963/TheTerror1963_512kb.mp4
+
+#EXTINF:-1,The Ape (1940)
+https://archive.org/download/TheApe1940/TheApe1940_512kb.mp4
+
+#EXTINF:-1,The Giant Gila Monster (1959)
+https://archive.org/download/TheGiantGilaMonster/TheGiantGilaMonster_512kb.mp4
+
+#EXTINF:-1,The Atomic Brain (1963)
+https://archive.org/download/TheAtomicBrain/TheAtomicBrain_512kb.mp4
+
+#EXTINF:-1,Assignment Outer Space (1960)
+https://archive.org/download/AssignmentOuterSpace/AssignmentOuterSpace_512kb.mp4
+
+#EXTINF:-1,The Sinister Urge (1960)
+https://archive.org/download/TheSinisterUrge/TheSinisterUrge_512kb.mp4
 # Terror / Sci-Fi
 #EXTINF:-1,Night of the Living Dead (1968)
 https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4
