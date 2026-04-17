@@ -177,12 +177,12 @@
 },
 
   "univision": {
-    "nombre": "Univision",
+    "nombre": "MultiCanal",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/ADN_Radio_Chile.svg",
     "señales": {
-      "iframe_url": [""],
+      "iframe_url": ["https://xcms.neocities.org/tv/NatioStationTvs/home"],
       "m3u8_url": [""],
-      "yt_id": "V4C7VNfRATA",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
