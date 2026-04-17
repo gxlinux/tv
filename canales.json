@@ -41,7 +41,7 @@
     "categoría": "news"
   },
   "cnn-cl": {
-    "nombre": "cnn",
+    "nombre": "peliculas",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png",
     "señales": {
       "iframe_url": [
@@ -49,12 +49,12 @@
         ""
       ],
       "m3u8_url": [
-        "https://movil.ejeserver.com/live/visiondorada.m3u8"
+        ""
 
       ],
-      "yt_id": "Qr61waJ6AZg",
-      "yt_embed": "Qr61waJ6AZg",
-      "yt_playlist": "",
+      "yt_id": "",
+      "yt_embed": "",
+      "yt_playlist": "PLbvB02domVLy-_3zZ37LrDWJJ4PFayfms",
       "twitch_id": ""
     },
     "sitio_oficial": "https://www.cnnchile.com/page/en-vivo/",
