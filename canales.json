@@ -41,14 +41,14 @@
     "categoría": "news"
   },
   "cnn-cl": {
-  "nombre": "peliculas",
+  "nombre": "24/7 Heavy Metal Radio ",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png",
   "señales": {
     "iframe_url": [],
     "m3u8_url": [],
-    "yt_id": "",
+    "yt_id": "nFLPs44uzcY",
     "yt_embed": "",
-    "yt_playlist": "PLbvB02domVLy-_3zZ37LrDWJJ4PFayfms",
+    "yt_playlist": "",
     "twitch_id": ""
   },
 
