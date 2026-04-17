@@ -192,17 +192,17 @@
     "categoría": "news"
    },
   "duna": {
-    "nombre": "Radio Duna",
+    "nombre": "Natio Station Tv",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Radio_Duna_2005.jpg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/dunatv"
+        "https://xcms.neocities.org/tv/NatioStationTvs/"
       ],
       "m3u8_url": [
-        "https://unlimited2-cl-isp.dps.live/dunatv/dunatv.smil/playlist.m3u8",
-        "https://unlimited1-cl-isp.dps.live/dunatv/dunatv.smil/playlist.m3u8"
+        "",
+        ""
       ],
-      "yt_id": "UC2dUjKdv0sezxuflNK4w8Pg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
