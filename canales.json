@@ -431,15 +431,15 @@
     "categoría": "music"
   },
   "radiouchile102-5fm": {
-    "nombre": "Radio Universidad de Chile",
+    "nombre": "latele",
     "logo": "https://graph.facebook.com/RadioUniversidaddeChile/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "https://radio.uchile.cl/senal-en-vivo/",
-        "https://sonic-us.streaming-chile.com/8186/stream"
+        "https://xcms.neocities.org/tv/latele"
+        
       ],
       "m3u8_url": [],
-      "yt_id": "UCLFjv-Saz8b2_01asg9IQ-w",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
