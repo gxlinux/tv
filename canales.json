@@ -453,7 +453,6 @@
     "logo": "https://graph.facebook.com/Tele13Radio/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "",
         "https://xcms.neocities.org/tv/animados"
       ],
       "m3u8_url": [
