@@ -449,18 +449,18 @@
     "categoría": "music"
   },
   "tele13radio-chile": {
-    "nombre": "Tele13 Radio",
+    "nombre": "caracol noticias",
     "logo": "https://graph.facebook.com/Tele13Radio/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "https://mdstrm.com/live-stream/5c915613519bce27671c4caa?volume=0",
-        "https://tele13radio.cl/"
+        "",
+        ""
       ],
       "m3u8_url": [
-        "https://mdstrm.com/audio/5c915613519bce27671c4caa/live.m3u8",
-        "https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8"
+        "",
+        ""
       ],
-      "yt_id": "UCQcmb3lvx7hZCoOXvcCvgBg",
+      "yt_id": "kMNm9L0TM1w",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
