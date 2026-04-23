@@ -449,19 +449,19 @@
     "categoría": "music"
   },
   "tele13radio-chile": {
-    "nombre": "chavo",
+    "nombre": "la tele fantasias animadas",
     "logo": "https://graph.facebook.com/Tele13Radio/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
         "",
-        ""
+        "https://xcms.neocities.org/tv/animados"
       ],
       "m3u8_url": [
         "",
         ""
       ],
       "yt_id": "",
-      "yt_embed": "fy_fYd3ZwPE",
+      "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
