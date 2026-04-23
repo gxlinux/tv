@@ -470,18 +470,17 @@
     "categoría": "music"
   },
   "lametro95-9fm": {
-    "nombre": "La MetroFM",
+    "nombre": "latele music",
     "logo": "https://lametrofm.cl/wp-content/uploads/2025/03/LOGO_2025_fm-removebg-preview1.png",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/metropolitanatv",
-        "https://audio.streaminghd.cl:2000/stream/estacionmetropolitana/;stream.mp3"
+        "https://xcms.neocities.org/tv/music"
       ],
       "m3u8_url": [
-        "https://jireh-3-hls-video-cl-movistar.dps.live/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/metropolitanatv/metropolitanatv.smil/metropolitanatv/livestream1/chunks.m3u8",
-        "https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/metropolitanatv/metropolitanatv.smil/playlist.m3u8"
+        "",
+        ""
       ],
-      "yt_id": "UC1NcCfxvIYT_JxCjquphGSg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
@@ -513,12 +512,14 @@
     "categoría": "music"
   },
   "llegolahora921": {
-    "nombre": "¡Llegó la hora!",
+    "nombre": "la tele cine y series!",
     "logo": "https://graph.facebook.com/RadioAgricultura/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/series"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCIVwrJN2-qiSnECgALA3rzA",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
