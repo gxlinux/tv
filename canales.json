@@ -632,7 +632,11 @@
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
-    },
+      },
+    "sitio_oficial": "https://ninafm.cl/",
+    "país": "cl",
+    "categoría": "music"
+  },
 
   "ntv": {
     "nombre": "NTV",
