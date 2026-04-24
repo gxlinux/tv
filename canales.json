@@ -620,33 +620,15 @@
     "país": "cl",
     "categoría": "music"
   },
-  "bein": {
-    "nombre": "BeIN SPORTS ",
-    "logo": "https://i.imgur.com/V562tpO.png",
-    "señales": {
-      "iframe_url": [],
-      "m3u8_url": [
-        "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8"
-      ],
-      "yt_id": "",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "",
-    "pais": "cl",
-    "categoria": "sports"
-  
- },
   "tv-chile": {
-    "nombre": "TV Chile",
+    "nombre": "BeIN SPORTS",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Logotipo_de_TV_Chile.svg",
     "señales": {
       "iframe_url": [
-        "https://mdstrm.com/live-stream/533adcc949386ce765657d7c?volume=0"
+        ""
       ],
       "m3u8_url": [
-        "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8"
+        "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
