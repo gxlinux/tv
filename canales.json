@@ -639,16 +639,16 @@
   },
 
   "ntv": {
-    "nombre": "NTV",
+    "nombre": "DayTv",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logotipo_de_NTV.svg",
     "señales": {
       "iframe_url": [
-        "https://mdstrm.com/live-stream/5aaabe9e2c56420918184c6d?volume=0"
+        "https://xcms.neocities.org/tv/day"
       ],
       "m3u8_url": [
-        "https://marine2.miplay.cl/ntv/playlist.m3u8"
+        ""
       ],
-      "yt_id": "UC-qGzxz4cJjbWCdYndyO1gg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
