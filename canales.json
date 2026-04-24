@@ -119,7 +119,7 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Radio_Cooperativa_Logo.svg",
     "señales": {
       "iframe_url": [
-        "https://xcms.neocities.org/tv/chavo8"
+        "https://xcms.neocities.org/tv/ch8"
       ],
       "m3u8_url": [
         "https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8"
@@ -604,14 +604,14 @@
     "categoría": "music"
   },
   "nina-fm": {
-    "nombre": "Nina FM",
+    "nombre": "Caracol Noticias",
     "logo": "https://graph.facebook.com/ninaladiferente/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "https://sonic-us.arkeo.cl/8236/stream/"
+        "https://xcms.neocities.org/tv/caracol"
       ],
       "m3u8_url": [
-        "https://tv1.ninatv.cl/web/stream.m3u8"
+        ""
       ],
       "yt_id": "",
       "yt_embed": "",
