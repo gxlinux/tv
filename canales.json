@@ -620,13 +620,11 @@
     "país": "cl",
     "categoría": "music"
   },
-  "tv-chile": {
-    "nombre": "BeIN SPORTS",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Logotipo_de_TV_Chile.svg",
+ "bein-sports-xtra": {
+    "nombre": "BeIN SPORTS XTRA",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
     "señales": {
-      "iframe_url": [
-        ""
-      ],
+      "iframe_url": [],
       "m3u8_url": [
         "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8"
       ],
@@ -634,30 +632,9 @@
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.tvn.cl/tvchile/envivo",
-    "país": "cl",
-    "categoría": "general"
+    }
   },
-  "tvn-3": {
-    "nombre": "TVN 3",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/TVN_3_2023.svg/320px-TVN_3_2023.svg.png",
-    "señales": {
-      "iframe_url": [
-        "https://mdstrm.com/live-stream/5653641561b4eba30a7e4929?volume=0"
-      ],
-      "m3u8_url": [
-        "https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8"
-      ],
-      "yt_id": "",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.tvn.cl/tvn3",
-    "país": "cl",
-    "categoría": "culture"
-  },
+
   "ntv": {
     "nombre": "NTV",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logotipo_de_NTV.svg",
