@@ -584,13 +584,11 @@
     "país": "cl",
     "categoría": "music"
   },
-  "radio-puangue-curacavi": {
-    "nombre": "Dorada caldas",
+  "vision-dorada-caldas": {
+    "nombre": "Visión Dorada Caldas",
     "logo": "https://radiopuanguecuracavi.cl/wp-content/uploads/2024/11/Logo.png",
     "señales": {
-      "iframe_url": [
-        ""
-      ],
+      "iframe_url": [],
       "m3u8_url": [
         "https://movil.ejeserver.com/live/visiondorada.m3u8"
       ],
@@ -599,7 +597,7 @@
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://radiopuanguecuracavi.cl/",
+    "sitio_oficial": "https://visiondoradatv.com/",
     "país": "cl",
     "categoría": "music"
   },
