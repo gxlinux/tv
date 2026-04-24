@@ -620,26 +620,24 @@
     "país": "cl",
     "categoría": "music"
   },
-  "tvn-cl": {
-    "nombre": "TVN",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Logotipo_de_Televisi%C3%B2n_Nacional_de_Chile.svg",
+  "bein": {
+    "nombre": "BeIN SPORTS XTRA",
+    "logo": "https://i.imgur.com/V562tpO.png",
     "señales": {
-      "iframe_url": [
-        "https://www.tvn.cl/en-vivo"
-      ],
+      "iframe_url": [],
       "m3u8_url": [
-        "https://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8",
-        "https://marine2.miplay.cl/tvnchile/index.m3u8"
+        "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8"
       ],
-      "yt_id": "UCaVaCaiG6qRzDiJDuEGKOhQ",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
     },
-    "sitio_oficial": "https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ",
-    "país": "cl",
-    "categoría": "general"
-  },
+    "sitio_oficial": "",
+    "pais": "cl",
+    "categoria": "news"
+  
+ },
   "tv-chile": {
     "nombre": "TV Chile",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Logotipo_de_TV_Chile.svg",
