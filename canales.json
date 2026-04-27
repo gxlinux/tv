@@ -694,15 +694,14 @@
     "categoría": "general"
   },
   "canal-13": {
-    "nombre": "Canal 13",
+    "nombre": "Stadium USA EN",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Emblema_del_Canal_13_Chile.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/c13"
+        ""
       ],
       "m3u8_url": [
-        "https://jireh-hls-live-video.dpsgo.com/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/c13/playlist.m3u8",
-        "https://marine2.miplay.cl/c13/index.m3u8"
+        "https://2d006483e2aa43fe812f7b464cb2916d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Stadium/playlist.m3u8"
       ],
       "yt_id": "UCd4D3LfXC_9MY2zSv_3gMgw",
       "yt_embed": "",
