@@ -693,29 +693,25 @@
     "país": "cl",
     "categoría": "general"
   },
-  "station-13": {
-    "nombre": "Station 13 (Canal 13 Chile)",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Emblema_del_Canal_13_Chile.svg",
-    "señales": {
-      "iframe_url": [
-        ""
-      ],
-      "m3u8_url": [
-        "https://2d006483e2aa43fe812f7b464cb2916d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Stadium/playlist.m3u8"
-      ],
-      "yt_id": "",
-      "yt_embed": "",
-      "yt_playlist": "",
-      "twitch_id": ""
-    },
-    "sitio_oficial": "https://www.13.cl/en-vivo",
-    "país": "cl",
-    "categoría": "general"
+ "station-13": {
+  "nombre": "Station 13 (Canal 13 Chile)",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Emblema_del_Canal_13_Chile.svg",
+  "señales": {
+    "iframe_url": [
+      ""
+    ],
+    "m3u8_url": [
+      "https://2d006483e2aa43fe812f7b464cb2916d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Stadium/playlist.m3u8"
+    ],
+    "yt_id": "",
+    "yt_embed": "",
+    "yt_playlist": "",
+    "twitch_id": ""
   },
-    "sitio_oficial": "https://www.13.cl/en-vivo",
-    "país": "cl",
-    "categoría": "general"
-  },
+  "sitio_oficial": "https://www.13.cl/en-vivo",
+  "país": "cl",
+  "categoría": "general"
+}
   "chilevision": {
     "nombre": "Chilevisión",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Emblema_de_Chilevisi%C3%B3n.svg",
