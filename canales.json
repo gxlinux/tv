@@ -809,11 +809,11 @@
     "categoría": "culture"
   },
   "13-entretencion": {
-    "nombre": ",Hispan TV Iran",
+    "nombre": "Hispan TV Iran",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/13entretencion.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/13e"
+        ""
       ],
       "m3u8_url": [
         "https://live.presstv.ir/hls/hispantv_5_482/index.m3u8"
