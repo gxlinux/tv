@@ -828,15 +828,14 @@
     "categoría": "entertainment"
   },
   "13-festival": {
-    "nombre": "13 Festival",
+    "nombre": "activatv",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/6/6e/13festival.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/13festival"
+        ""
       ],
       "m3u8_url": [
-        "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8",
-        "https://dai.google.com/linear/hls/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8"
+        "https://streamtv.mediasector.es/hls/activatv/index.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
