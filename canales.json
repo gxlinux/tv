@@ -658,12 +658,14 @@
     "categoría": "culture"
   },
   "teleseries-tvn": {
-    "nombre": "Teleseries y series TVN",
+    "nombre": "Dragon BALL",
     "logo": "https://i.pinimg.com/736x/73/8c/06/738c06db140ef99b6f190d9e0a1867e6.jpg",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/dragonball"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCJwtKyJIfr31zI077EnQTXg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
