@@ -675,16 +675,16 @@
     "categoría": "entertainment"
   },
   "mega-cl": {
-    "nombre": "Mega",
+    "nombre": "DragolballZ",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Logotipo_de_Mega_%282015-2020%29.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/mega"
+        "https://xcms.neocities.org/tv/dragolballZ"
       ],
       "m3u8_url": [
-        "https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8"
+        ""
       ],
-      "yt_id": "UCEpId-jtRABuZyX6D2z6FZQ",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": "megatvoficial"
