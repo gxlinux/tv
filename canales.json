@@ -1016,12 +1016,14 @@
     "categoría": "sports"
   },
   "frecuencia-cruzada": {
-    "nombre": "Frecuencia Cruzada",
+    "nombre": "Humor",
     "logo": "https://graph.facebook.com/FrecuenciaCruzada/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/humor"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCQNt1ccbf8WXt1QJqqXfW3g",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
