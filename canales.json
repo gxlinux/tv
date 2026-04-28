@@ -1405,7 +1405,7 @@
     "categoría": "general"
   },
   "veo-tv": {
-    "nombre": "Sports Connect",
+    "nombre": "Fifa",
     "logo": "https://www.veotv.cl/img/logo_grande.png",
     "señales": {
       "iframe_url": [
@@ -1444,16 +1444,15 @@
     "país": "cl",
     "categoría": "general"
   },
+  {
   "osorno-tv": {
-    "nombre": "Sports First",
+    "nombre": "Osorno TV",
     "logo": "https://graph.facebook.com/OsornoTV/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-       "https://xcms.neocities.org/tv/first"
+        "https://xcms.neocities.org/tv/first"
       ],
-      "m3u8_url": [
-        ""
-      ],
+      "m3u8_url": [],
       "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
@@ -1464,11 +1463,11 @@
     "categoría": "general"
   },
   "copano": {
-    "nombre": "sophia",
+    "nombre": "Copano News",
     "logo": "https://graph.facebook.com/copano/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-       "https://xcms.neocities.org/tv/sophia"
+        "https://xcms.neocities.org/tv/sophia"
       ],
       "m3u8_url": [],
       "yt_id": "",
@@ -1481,11 +1480,11 @@
     "categoría": "news"
   },
   "canalzonalatina": {
-    "nombre": "Fite Sports",
+    "nombre": "Zona Latina",
     "logo": "https://graph.facebook.com/canalzonalatina/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-       "https://xcms.neocities.org/tv/fite"
+        "https://xcms.neocities.org/tv/fite"
       ],
       "m3u8_url": [],
       "yt_id": "",
@@ -1498,15 +1497,13 @@
     "categoría": "general"
   },
   "u-talca-tv": {
-    "nombre": fire Sports",
+    "nombre": "UTalca TV",
     "logo": "https://tv.utalca.cl/wp-content/uploads/2023/10/cropped-Isologo-UTalcaTV-3-32x32.png",
     "señales": {
       "iframe_url": [
         "https://xcms.neocities.org/tv/firesports"
       ],
-      "m3u8_url": [
-        ""
-      ],
+      "m3u8_url": [],
       "yt_id": "UCIgDezAuy6jYN2Qf6WH89vg",
       "yt_embed": "",
       "yt_playlist": "",
@@ -1514,7 +1511,7 @@
     },
     "sitio_oficial": "https://tv.utalca.cl",
     "país": "cl",
-    "categoría": "general"
+    "categoría": "educativo"
   },
   "tv-uct-araucania": {
     "nombre": "TV UCT (U. Católica de Temuco)",
