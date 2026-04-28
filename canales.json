@@ -923,12 +923,14 @@
     "categoría": "kids"
   },
   "13-canal-pruebas": {
-    "nombre": "Canal 13 (Señal de Pruebas)",
+    "nombre": "Señal de Pruebas)",
     "logo": "",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/pruevas"
+      ],
       "m3u8_url": [
-        "https://jireh-9-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/13live/13live.smil/13live/livestream1/chunks.m3u8"
+        ""
       ],
       "yt_id": "",
       "yt_embed": "",
@@ -995,12 +997,14 @@
     "categoría": "sports"
   },
   "picadotv-chile": {
-    "nombre": "PicadoTV Chile",
+    "nombre": "2TV ",
     "logo": "https://graph.facebook.com/picadotv/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/2tv"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCpANs3C33Ay49hN2JeCV7FQ",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
