@@ -1033,12 +1033,14 @@
     "categoría": "sports"
   },
   "balong": {
-    "nombre": "Balong - MDTPnet",
+    "nombre": "Series tv",
     "logo": "https://graph.facebook.com/fuerteperoalbalong/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/seriestv"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCEZEW2z22WBkUB2Fcs8Gq3A",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
