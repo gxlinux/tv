@@ -885,15 +885,14 @@
     "categoría": "entertainment"
   },
   "13-pop": {
-    "nombre": "13 Pop",
+    "nombre": "Punt 3 ",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5c/13pop.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/13pop"
+        ""
       ],
       "m3u8_url": [
-        "https://origin.dpsgo.com/ssai/event/WKlE4m31TOijQS05TZmhqw/master.m3u8",
-        "https://dai.google.com/linear/hls/event/WKlE4m31TOijQS05TZmhqw/master.m3u8"
+        "https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
