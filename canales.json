@@ -1445,7 +1445,7 @@
     "categoría": "general"
   },
   "osorno-tv": {
-    "nombre": "Osorno TV",
+    "nombre": "Firs Sports",
     "logo": "https://graph.facebook.com/OsornoTV/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
@@ -1462,7 +1462,7 @@
     "categoría": "general"
   },
   "copano": {
-    "nombre": "Copano News",
+    "nombre": "sOPHIA",
     "logo": "https://graph.facebook.com/copano/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
@@ -1479,7 +1479,7 @@
     "categoría": "news"
   },
   "canalzonalatina": {
-    "nombre": "Zona Latina",
+    "nombre": "Fite Sports",
     "logo": "https://graph.facebook.com/canalzonalatina/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
@@ -1496,7 +1496,7 @@
     "categoría": "general"
   },
   "u-talca-tv": {
-    "nombre": "UTalca TV",
+    "nombre": "FireSports",
     "logo": "https://tv.utalca.cl/wp-content/uploads/2023/10/cropped-Isologo-UTalcaTV-3-32x32.png",
     "señales": {
       "iframe_url": [
