@@ -1067,17 +1067,17 @@
     "categoría": "weather"
   },
   "voz-sobran": {
-    "nombre": "La Voz De Los Que Sobran",
+    "nombre": "Salvador tv",
     "logo": "https://graph.facebook.com/delosquesobran/picture?width=800&height=800",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/lvdlqs"
+        "https://xcms.neocities.org/tv/salvador"
       ],
       "m3u8_url": [
-        "https://unlimited1-cl-isp.dps.live/lvdlqs/lvdlqs.smil/playlist.m3u8",
-        "https://pantera1-100gb-cl-movistar.dps.live/lvdlqs/lvdlqs.smil/playlist.m3u8"
+        "",
+        ""
       ],
-      "yt_id": "UCEnSee5vPeNAm2EFpb_UaRw",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": "delosquesobran"
@@ -1124,14 +1124,16 @@
     "categoría": "general"
   },
   "antofagasta-tv": {
-    "nombre": "Antofagasta TV",
+    "nombre": "San Jose",
     "logo": "https://graph.facebook.com/AntofagastaTelevision/picture?width=800&height=800",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/sanjose"
+      ],
       "m3u8_url": [
-        "https://unlimited6-cl.dps.live/atv/atv.smil/atv/livestream2/playlist.m3u8",
-        "https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8",
-        "https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8"
+        "",
+        "h",
+        ""
       ],
       "yt_id": "UCPPF9v9ISzU_wp8ao2SBfpg",
       "yt_embed": "",
