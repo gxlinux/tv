@@ -1050,12 +1050,14 @@
     "categoría": "sports"
   },
   "mega-tiempo": {
-    "nombre": "MegaTiempo",
+    "nombre": "medios costa rica",
     "logo": "https://logowik.com/content/uploads/images/mega-tiempo-new2760.logowik.com.webp",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/costa"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCMlbrjJMsxg5KRSLVN-hbeg",
+      "yt_id": "U",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
