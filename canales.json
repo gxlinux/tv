@@ -1503,7 +1503,7 @@
         "https://xcms.neocities.org/tv/firesports"
       ],
       "m3u8_url": [],
-      "yt_id": "UCIgDezAuy6jYN2Qf6WH89vg",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
@@ -1513,17 +1513,16 @@
     "categoría": "educativo"
   },
   "tv-uct-araucania": {
-    "nombre": "TV UCT (U. Católica de Temuco)",
+    "nombre": "Sports Italia",
     "logo": "https://tvuct.cl/wp-content/uploads/2023/08/logo-white.png",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/uct"
+        "https://xcms.neocities.org/tv/italia"
       ],
       "m3u8_url": [
-        "https://unlimited1-cl-isp.dps.live/uct/uct.smil/playlist.m3u8",
-        "https://unlimited2-cl-isp.dps.live/uct/uct.smil/playlist.m3u8"
+        ""
       ],
-      "yt_id": "UCdGQHFBFDJoROOVKTCMsDrA",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
