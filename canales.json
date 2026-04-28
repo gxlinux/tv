@@ -980,12 +980,14 @@
     "categoría": "sports"
   },
   "chv-deportes": {
-    "nombre": "CHV Deportes",
+    "nombre": "Kids",
     "logo": "",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/kids"
+      ],
       "m3u8_url": [
-        "https://mdstrm.com/live-stream-playlist/6531749eaf244059b3ade17b.m3u8"
+        ""
       ],
       "yt_id": "",
       "yt_embed": "",
