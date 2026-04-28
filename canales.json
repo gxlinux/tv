@@ -847,15 +847,14 @@
     "categoría": "music"
   },
   "13-realities": {
-    "nombre": "13 Realities",
+    "nombre": "Distrito Tv",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/13realities.svg",
     "señales": {
       "iframe_url": [
-        "https://rudo.video/live/13realities"
+        "https://xcms.neocities.org/tv/distritotv"
       ],
       "m3u8_url": [
-        "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
-        "https://dai.google.com/linear/hls/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8"
+        "https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8"
       ],
       "yt_id": "",
       "yt_embed": "",
