@@ -1590,14 +1590,14 @@
     "categoría": "general"
   },
   "ues-tv": {
-    "nombre": "UESTV",
+    "nombre": "Saxum Station Video TV",
     "logo": "https://www.uestv.cl//wp-content/uploads/layerslider/INICIO-TEMPORAL-COVID-19-Y-ECLIPSE-copy/logo-UESTV.png",
     "señales": {
       "iframe_url": [
-        "https://live.grupoz.cl/dd7d5a60e9d657ea4ac4dab1064d1930"
+        "https://xcms.neocities.org/tv/videotv/"
       ],
       "m3u8_url": [
-        "https://tls-cl.cdnz.cl/uestv/live/playlist.m3u8"
+        ""
       ],
       "yt_id": "UC4vhg1olhPYfBr1qEJxtPjw",
       "yt_embed": "",
