@@ -1668,12 +1668,14 @@
     "categoría": "general"
   },
   "realtvchile-porlalibertad": {
-    "nombre": "Real TV Chile",
+    "nombre": "los tres chiflados",
     "logo": "",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/chifaldos"
+      ],
       "m3u8_url": [],
-      "yt_id": "UCP924kx7aGtDlELJj1SeaZw",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
@@ -1683,18 +1685,17 @@
     "categoría": "general"
   },
   "arica-tv": {
-    "nombre": "Arica TV",
+    "nombre": "Retro TV",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Logo_de_Arica_TV.png/240px-Logo_de_Arica_TV.png",
     "señales": {
       "iframe_url": [
-        "https://arica.tv/envivo/",
-        "https://envivo.arica.tv/stream/"
+        "https://xcms.neocities.org/tv/retro"
       ],
       "m3u8_url": [
-        "https://envivo.arica.tv/hls/stream.m3u8",
-        "https://5eaccbab48461.streamlock.net:1936/8002/8002/playlist.m3u8"
+        "",
+        ""
       ],
-      "yt_id": "UC7z3grpL2BZuf1zIN0v99LQ",
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
