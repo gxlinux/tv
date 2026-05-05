@@ -6654,10 +6654,12 @@
     "categoría": "news"
   },
   "RailCam": {
-    "nombre": "Aoba traffics",
+    "nombre": "NOvela",
     "logo": "",
     "señales": {
-      "iframe_url": [],
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/honor"
+      ],
       "m3u8_url": [],
       "yt_id": "UCynDLZ-YJnrMLSQvwYi-bUA",
       "yt_embed": "iq0AiuVEuFI",
