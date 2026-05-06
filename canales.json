@@ -1746,15 +1746,17 @@
     "categoría": "general"
   },
   "huasco-television": {
-    "nombre": "Huasco Television",
+    "nombre": "hombres de honor",
     "logo": "https://www.huascotelevisionstreaming.cl/images/logo_superior.png",
     "señales": {
-      "iframe_url": [],
-      "m3u8_url": [
-        "https://paneltv.online:1936/8024/8024/playlist.m3u8",
-        "https://paneltv.stream:19360/huasco/huasco.m3u8"
+      "iframe_url": [
+       "https://xcms.neocities.org/tv/honor"
       ],
-      "yt_id": "UCSQh2XXt_T2abPHrabtS-sw",
+      "m3u8_url": [
+        "",
+        ""
+      ],
+      "yt_id": "",
       "yt_embed": "",
       "yt_playlist": "",
       "twitch_id": ""
